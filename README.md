@@ -1,2 +1,3 @@
-# fullstack-python-roadmap
-My complete journey and roadmap to becoming a fullstack Python developer. All code, notes, and mini-projects are tracked here as I master frontend, backend, and deployment skills.
+# My Fullstack Python Journey 🔥
+This repo tracks my progress from beginner to fullstack Python developer. It includes structured learning folders with real code, concepts, and projects as I build up my skills day-by-day.
+
