@@ -1,22 +1,31 @@
 # 🐍 Python Fundamentals
 
-This folder contains all the basic building blocks of Python programming.
-
-## ✅ Topics Covered:
-
-- Variables and Data Types
-- Input/Output
-- Operators
-- Conditional Statements (if, elif, else)
-- Loops (for, while)
-- Functions
-- Scope and Global/Local Variables
-- String Manipulation
-- Type Casting
-- Comments and Code Formatting
-- Basic Math Operations
-- Python `pass`, `continue`, `break`
+This section covers the foundational concepts of Python programming. Each topic is demonstrated with clean code examples in separate files/folders.
 
 ---
 
-> 🗂️ Each topic is in its own subfolder or script file with examples and explanations.
+## ✅ Topics Covered:
+
+- Introduction to Python
+- Setting Up Python Environment
+- Variables and Constants
+- Data Types (int, float, str, bool)
+- Type Conversion & Casting
+- String Operations
+- Taking User Input
+- Arithmetic and Assignment Operators
+- Comparison & Logical Operators
+- Conditional Statements (`if`, `elif`, `else`)
+- Loops (`for`, `while`)
+- Loop Control Statements (`break`, `continue`, `pass`)
+- Functions
+- Function Arguments & Return Values
+- Scope – Global vs Local Variables
+- Comments and Code Readability
+- Basic Built-in Functions (`len`, `type`, `input`, `print`, etc.)
+- Writing Clean and Structured Python Code
+
+---
+
+📂 Each topic has an associated file or folder for reference and practice.
+
