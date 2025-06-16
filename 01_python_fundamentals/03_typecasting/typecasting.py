@@ -65,3 +65,13 @@ print(type(num_as_int))
 
 # printing str(100) + days using print statement
 print(str(100) + " days.")
+
+# Converting List to Tuple
+my_list = [1, 2, 3]
+my_tuple = tuple(my_list)
+print(my_tuple)
+
+# Converting Tuple of Pairs to Dictionary
+items = [("a", 1), ("b", 2)]
+items_dict = dict(items)
+print(items_dict)
