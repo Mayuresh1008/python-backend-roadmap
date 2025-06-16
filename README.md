@@ -16,13 +16,12 @@ This repo is a complete learning journey — from Python basics to advanced full
 
 # 📚 Python Roadmap
 
-## 🔰 Section 1: Python Fundamentals
+## 🔰 Section 1: Python Fundamentals [01_python_fundamentals](./01_python_fundamentals/)
 
-| Sr | Topic                        | Folder Link                                       |
-|----|------------------------------|---------------------------------------------------|
-| 01 | Print Statement              | [01_print-statement](./01_print-statement)        |
-|    | Comments & Escape Sequences  | [02_comments-and-escape](./02_comments-and-escape)|
-| 02 | Variables & Data Types       | [03_variables](./03_variables)                    |
+| Sr | Topic                                        | Folder Link                                                                     |
+|----|----------------------------------------------|---------------------------------------------------------------------------------|
+| 01 | Print Statement, Comments & Escape Sequences | [01_print()_&_comments](./01_python_fundamentals/01_print()_&_comments/)        |
+| 02 | Variables & Data Types                       | [02_variables_&_datatypes](./01_python_fundamentals/02_variables_&_datatypes/)  |
 
 ---
 
