@@ -119,3 +119,4 @@ print(type(d))  # <class 'bool'>
 * Python auto-assigns the data type based on the value.
 * You can check the data type using `type()`.
 * Python supports many built-in data types: `int`, `float`, `str`, `bool`, `complex`, `list`, `tuple`, `dict`.
+
