@@ -32,12 +32,6 @@ This repo is my personal brain + portfolio and a free resource for others too.
 
 ---
 
-## 🪪 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🌟 Support / Share
 
 If this roadmap helps you, feel free to ⭐ star it and share with friends learning Python!
