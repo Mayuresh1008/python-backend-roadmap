@@ -2,7 +2,7 @@
 
 # This is a Single-line Comment
 
-print("Hey I am a good boy \nand this viewer is also a good boy/girl.") # This is also a comment
+print("Hey I am a good boy \nand this viewer is also a good boy/girl.") 
 
 # Multiline Comment
 
