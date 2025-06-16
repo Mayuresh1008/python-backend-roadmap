@@ -16,7 +16,7 @@ This repo is a complete learning journey — from Python basics to advanced full
 
 # 📚 Python Roadmap
 
-## 🔰 Section 1: Python Fundamentals [01_python_fundamentals](./01_python_fundamentals/)
+## 🔰 Section 1: [Python Fundamentals](./01_python_fundamentals/)
 
 | Sr | Topic                                        | Folder Link                                                                     |
 |----|----------------------------------------------|---------------------------------------------------------------------------------|
