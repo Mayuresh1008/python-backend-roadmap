@@ -20,8 +20,10 @@ This repo is a complete learning journey — from Python basics to advanced full
 
 | Sr | Topic                                        | Folder Link                                                                     |
 |----|----------------------------------------------|---------------------------------------------------------------------------------|
-| 01 | Print Statement, Comments & Escape Sequences | [01_print()_&_comments](./01_python_fundamentals/01_print()_&_comments/)        |
-| 02 | Variables & Data Types                       | [02_variables_&_datatypes](./01_python_fundamentals/02_variables_&_datatypes/)  |
+| 01 | Print Statement, Comments & Escape Sequences | [01_Print-Statement](./01_python_fundamentals/01_print()_&_comments/)           |
+| 02 | Variables & Data Types                       | [02_Variables-And-Datatypes](./01_python_fundamentals/02_variables_&_datatypes/)|
+| 03 | Type-Conversion and Casting in Python        | [03_Type-Casting](./01_python_fundamentals/03_typecasting/)                     |
+| 03 | User Input in Python                         | [04_User-Input](./01_python_fundamentals/04_userinput/)                         |
 
 ---
 
