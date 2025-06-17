@@ -1,6 +1,8 @@
 """ 
-This is the practice file where i have practice 
-about different datatypes, string methods
+This is the practice file 
+where i have practice about different datatypes, string methods,
+removing whitespaces and displaying length of the string, justify
+space of the string, string index values methods and modifications
 
 """
 
@@ -69,6 +71,15 @@ print(len(multiline))
 print(len(multiline.strip())) # length after removing all the white spaces.
 print(len(multiline.lstrip())) # length after removing the white spaces from left side.
 print(len(multiline.rstrip())) # length after removing the white spaces from right side.
+
+# Build a Menu
+title = "menu".upper()
+print(title.center(20, "="))
+print("Coffee".ljust(16, ".") + "$1".rjust(4))
+print("Muffin".ljust(16, ".") + "$2".rjust(4))
+print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
+
+print("")
 
 
 
