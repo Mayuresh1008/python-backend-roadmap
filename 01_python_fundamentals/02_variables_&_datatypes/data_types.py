@@ -98,7 +98,6 @@ x = bool(False)
 print(type(x))
 print(isinstance(myvalue, bool))
 
-""" 
 # Numeric data types
 # integer datatype
 price = 100
@@ -106,6 +105,7 @@ best_price = int(80)
 print(type(price))
 print(isinstance(best_price, int))
 
+""" 
 # float datatype
 gpa = 3.28
 y = float(1.14)
