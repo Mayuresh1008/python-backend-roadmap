@@ -122,13 +122,13 @@ print(abs(gpa * -1))
 print(round(gpa))
 print(round(gpa, 1))
 
-""" 
 # Math functions
 print(math.pi)
 print(math.sqrt(64))
 print(math.ceil(gpa))
 print(math.floor(gpa))
 
+""" 
 # Casting a string to a number
 zipcode = "10001"
 zip_value = int(zipcode)
