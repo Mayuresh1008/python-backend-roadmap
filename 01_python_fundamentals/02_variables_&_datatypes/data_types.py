@@ -2,12 +2,13 @@
 This is the practice file 
 where i have practice about different datatypes, string methods,
 removing whitespaces and displaying length of the string, justify
-space of the string, string index values methods and modifications
-
+space of the string, string index values methods and modifications,
+Casting string to number, and casting number to string, 
+Built - in functions, math functinos and so on.
 """
 
 
-
+import math
 # String Data Type
 
 # literal assignment
@@ -87,6 +88,52 @@ print(first[-1]) # Displays element at last position
 print(first[1:-1]) # Displays string between 1 to last position
 print(first[1:]) # Displays string from 1 position to till the end
 
+# Some methods return boolean data
+print(first.startswith("D")) # Checking that does the string starts with "D" letter.
+print(first.endswith("Z")) # Checking that does the string ends with "Z" letter.
 
+""" 
+# Boolean data type
+myvalue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
 
+# Numeric data types
+# integer datatype
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
 
+# float datatype
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+
+# complex datatype
+comp_value = 5+3j
+print(type(comp_value))
+print(comp_value.real)
+print(comp_value.imag)
+
+# Built-in functions for numbers
+print(abs(gpa))
+print(abs(gpa * -1))
+print(round(gpa))
+print(round(gpa, 1))
+
+# Math functions
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+
+# Casting a string to a number
+zipcode = "10001"
+zip_value = int(zipcode)
+print(type(zip_value))  
+
+# Error if you attempt to cast incorrect data
+# zip_value = int("New York")
+"""
