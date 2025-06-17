@@ -116,13 +116,13 @@ print(type(comp_value))
 print(comp_value.real)
 print(comp_value.imag)
 
-""" 
 # Built-in functions for numbers
 print(abs(gpa))
 print(abs(gpa * -1))
 print(round(gpa))
 print(round(gpa, 1))
 
+""" 
 # Math functions
 print(math.pi)
 print(math.sqrt(64))
