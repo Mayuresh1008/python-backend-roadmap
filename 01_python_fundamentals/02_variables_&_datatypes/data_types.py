@@ -1,3 +1,11 @@
+""" 
+This is the practice file where i have practice 
+about different datatypes, string methods
+
+"""
+
+
+
 # String Data Type
 
 # literal assignment
@@ -41,3 +49,14 @@ print(multiline)
 # Escaping special characters
 sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at\\located?'
 print(sentence)
+
+# String Methods
+
+print(first)
+print(first.lower())
+print(first.upper())
+print(first)
+
+print(multiline.title())
+print(multiline.replace("good", "ok"))
+print(multiline)
