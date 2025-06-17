@@ -28,3 +28,16 @@ print(decade)
 
 statement = "I like rock music from the " + decade + "s."
 print(statement)
+
+# Multiline 
+multiline = ''' 
+Hey, how are you?
+
+I was just checking in.      
+                                All good?
+'''
+print(multiline)
+
+# Escaping special characters
+sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at\\located?'
+print(sentence)
