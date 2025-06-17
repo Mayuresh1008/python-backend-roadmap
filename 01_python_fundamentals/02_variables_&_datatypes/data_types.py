@@ -110,13 +110,13 @@ gpa = 3.28
 y = float(1.14)
 print(type(gpa))
 
-""" 
 # complex datatype
 comp_value = 5+3j
 print(type(comp_value))
 print(comp_value.real)
 print(comp_value.imag)
 
+""" 
 # Built-in functions for numbers
 print(abs(gpa))
 print(abs(gpa * -1))
