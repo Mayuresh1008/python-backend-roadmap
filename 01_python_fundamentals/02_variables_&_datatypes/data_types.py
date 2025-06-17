@@ -81,5 +81,12 @@ print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
 
 print("")
 
+# String index values
+print(first[1]) # Displays element at 1 position
+print(first[-1]) # Displays element at last position
+print(first[1:-1]) # Displays string between 1 to last position
+print(first[1:]) # Displays string from 1 position to till the end
+
+
 
 
