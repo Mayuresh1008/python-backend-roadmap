@@ -92,13 +92,13 @@ print(first[1:]) # Displays string from 1 position to till the end
 print(first.startswith("D")) # Checking that does the string starts with "D" letter.
 print(first.endswith("Z")) # Checking that does the string ends with "Z" letter.
 
-""" 
 # Boolean data type
 myvalue = True
 x = bool(False)
 print(type(x))
 print(isinstance(myvalue, bool))
 
+""" 
 # Numeric data types
 # integer datatype
 price = 100
