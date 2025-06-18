@@ -5,6 +5,18 @@ and using the concepts like user input, random module in python and so on.
 """
 import sys
 import random
+from enum import Enum
+
+class RPS(Enum):
+    ROCK = 1
+    PAPER = 2
+    SCISSORS = 3
+
+# Ways to access enum values
+# print(RPS(2))
+# print(RPS.ROCK)
+# print(RPS['ROCK'])
+# print(RPS.PAPER.value)
 
 print("")
 playerchoice = input("Enter...\n1 for Rock\n2 for Paper, or \n3 for Scissors:\n\n")
@@ -19,8 +31,8 @@ computerchoice = random.choice("123")
 computer = int(computerchoice)
 
 print("")
-print("You chose " + playerchoice + ".")
-print("Python chose " + computerchoice + ".")
+print("You chose " + str(RPS(player)).replace('RPS.', '') + ".")
+print("Python chose " + str(RPS(computer)).replace('RPS.', '') + ".")
 print("")
 
 if player == 1 and computer == 3:
