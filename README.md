@@ -18,12 +18,13 @@ This repo is a complete learning journey — from Python basics to advanced full
 
 ## 🔰 Section 1: [Python Fundamentals](./01_python_fundamentals/)
 
-| Sr | Topic                                        | Folder Link                                                                     |
-|----|----------------------------------------------|---------------------------------------------------------------------------------|
-| 01 | Print Statement, Comments & Escape Sequences | [01_Print-Statement](./01_python_fundamentals/01_print()_&_comments/)           |
-| 02 | Variables & Data Types                       | [02_Variables-And-Datatypes](./01_python_fundamentals/02_variables_&_datatypes/)|
-| 03 | Type-Conversion and Casting in Python        | [03_Type-Casting](./01_python_fundamentals/03_typecasting/)                     |
-| 04 | User Input in Python                         | [04_User-Input](./01_python_fundamentals/04_userinput/)                         |
+| Sr | Topic                                        | Folder Link                                                                                           |
+|----|----------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| 01 | Print Statement, Comments & Escape Sequences | [01-Print-Statement-And-Comments](./01-Python-Fundamentals/01-Print%20statement%20and%20Comments/)    |
+| 02 | Variables & Data Types                       | [02-Variables-And-Datatypes](./01-Python-Fundamentals/02-Variables-And-Datatypes/)                    |
+| 03 | Type-Conversion and Casting in Python        | [03-Type-Casting](./01-Python-Fundamentals/03-Type-Casting/)                                          |
+| 04 | User Input in Python                         | [04-User-Input](./01-Python-Fundamentals/04-UserInput/)                                               |
+| 05 | Strings in Python                            | [05-Strings](./01-Python-Fundamentals/05-Strings/)                                                    |
 
 ---
 
