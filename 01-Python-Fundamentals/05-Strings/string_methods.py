@@ -21,6 +21,8 @@ print(a.strip("!")) # also removes unwanted character or symbols from the string
 print(a.rstrip("!")) # also removes unwanted character or symbols from the string at right side.
 print(a.lstrip("!")) # also removes unwanted character or symbols from the string left side.
 
-sentence = "Hello, My name is John"
+sentence = "Hello, My name is John, doesn't you fell to say someone Hello"
 print(sentence)
-print(sentence.replace("Hello", "Hi")) # replaces the string hello with hi
+print(sentence.replace("Hello", "Hi")) # replaces all occurences of string hello with hi
+
+
