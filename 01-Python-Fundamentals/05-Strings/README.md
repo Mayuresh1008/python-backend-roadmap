@@ -169,3 +169,14 @@ print(f"{'Left':<10}|{'Right':>10}")
 
 ---
 
+
+## ✅ Summary
+| Concept | Description |
+|--------|-------------|
+| Indexing | Accessing characters by position |
+| Slicing | Extracting substring parts |
+| Immutability | Strings can't be changed in-place |
+| Methods | Built-in functions to manipulate strings |
+| Formatting | Inserting variables into strings |
+
+---
