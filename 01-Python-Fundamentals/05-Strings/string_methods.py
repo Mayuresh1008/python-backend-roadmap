@@ -62,4 +62,12 @@ print(sentence.count("Hello")) # returns 2
 
 # Endswith Method
 print(str1.endswith("!!!")) # checks if the string ends with given value or not and returns a boolean value True or False.
+print(str1.endswith("to", 4, 10)) # checks if the string in the given index slice endswiths the given string or characters
+
+# Find Method
+""" 
+The find() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then return -1.
+"""
+str1 = "He's name is Dan. He is an honest man."
+print(str1.find("is"))
 
