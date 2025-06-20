@@ -54,3 +54,11 @@ You can't change a string in-place; instead, use methods that return modified ve
 
 ---
 
+## 🔧 String Methods
+### Case Conversion:
+```python
+name = "Rocky"
+print(name.upper())
+print(name.lower())
+```
+
