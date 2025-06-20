@@ -23,3 +23,9 @@ print(f"My name is {name} and I'm {age} years old.")
 # Decimal places
 pi = 3.1415926535
 print(f"Pi rounded: {pi:.2f}") 
+# Syntax: "variable_name" ":" "." "no._decimal_places" "f"
+
+# Padding & Alignment
+print(f"{'Left':<10}") # Left-aligned (10 spaces)
+print(f"{'Right':>10}") # Right-aligned (10 spaces)
+print(f"{'Center':^10}") # Center-aligned (10 spaces : 5 at each side)
