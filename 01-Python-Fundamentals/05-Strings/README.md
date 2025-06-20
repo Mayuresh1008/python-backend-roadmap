@@ -106,3 +106,13 @@ print(str1.count("hello"))  # 2
 print(str1.endswith("hello"))
 ```
 
+### Find & Index:
+```python
+print(str1.find("hello"))  # Returns index or -1
+print(str1.index("hello"))  # Raises error if not found
+```
+
+---
+
+
+
