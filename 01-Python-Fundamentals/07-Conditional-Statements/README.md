@@ -127,3 +127,13 @@ match x:
     case _:
         print(x)
 ```
+
+### 🔸 Matching Literals
+```python
+day = "Monday"
+match day:
+    case "Monday" | "Tuesday":
+        print("Weekday")
+    case "Saturday" | "Sunday":
+        print("Weekend")
+```
