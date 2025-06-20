@@ -68,3 +68,9 @@ print(y or x)
 print("")
 print("a" in "apple")
 print(5 not in [1,2,3])
+
+# Identity Operators
+a = [1,2]
+b = [1,2]
+print(a is b)
+print(a == b)
