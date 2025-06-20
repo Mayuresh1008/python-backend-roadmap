@@ -70,3 +70,8 @@ print(greet.lstrip())
 print(greet.rstrip())
 ```
 
+### Replace:
+```python
+sentence = "Hello there, Hello again"
+print(sentence.replace("Hello", "Hi"))
+```
