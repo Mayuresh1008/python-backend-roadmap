@@ -72,6 +72,27 @@ print(5 not in [1,2,3]) # Returns True
 # Identity Operators
 a = [1,2]
 b = [1,2]
+print("")
 print(a is b) # False (different objects)
 print(a == b) # True
+print("")
+
+# Operator Precedence
+""" 
+Understand the PEMDAS acronym:
+> Parentheses
+> Exponents
+> Multiplication / Division (will be solved according to their occurrence means the operator which comes first will be solved first)
+> Addition / Subtaction (will be solved according to their occurrence means the operator which comes first will be solved first)
+"""
+result = 5 + 3 * 2
+print(result)  
+
+result = (5 + 3) * 2
+print(result)  
+
+result = 10 ** 2 / (4 + 5) * 3
+print(result)  
+
+
 
