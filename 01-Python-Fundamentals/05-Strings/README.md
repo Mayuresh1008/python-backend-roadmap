@@ -24,3 +24,11 @@ print(name[0])  # H
 
 ---
 
+## 🔁 Looping Through Strings
+```python
+for character in name:
+    print(character)
+```
+
+---
+
