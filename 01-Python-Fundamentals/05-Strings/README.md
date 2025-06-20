@@ -48,3 +48,9 @@ print(text[::3])  # Every 3rd character: 'Hl r!'
 
 ---
 
+
+## 🧱 Strings Are Immutable
+You can't change a string in-place; instead, use methods that return modified versions.
+
+---
+
