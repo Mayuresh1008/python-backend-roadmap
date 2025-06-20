@@ -75,3 +75,10 @@ print(greet.rstrip())
 sentence = "Hello there, Hello again"
 print(sentence.replace("Hello", "Hi"))
 ```
+
+### Split:
+```python
+names = "John,Alice,Peter"
+print(names.split(","))
+```
+
