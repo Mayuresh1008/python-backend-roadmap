@@ -15,3 +15,12 @@ apple = """He said, \"I want to eat an apple\""""
 
 ---
 
+## 📌 Accessing Characters
+Use indexing to access characters in a string:
+```python
+name = "Harry"
+print(name[0])  # H
+```
+
+---
+
