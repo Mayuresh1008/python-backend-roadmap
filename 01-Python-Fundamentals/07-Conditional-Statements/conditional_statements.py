@@ -30,13 +30,15 @@ if temperature > 30:
 else:
     print("It's not too hot")
 
-print("")
 ## Elif Statement
+print("")
 num = int(input("Enter a number:"))
 if (num < 0):
     print("Number is negative")
 elif (num > 0):
     print("Number is positive")
+elif (num >= 999):
+    print("Number is Special and out of range")
 else:
     print("Number is zero")
     
@@ -51,4 +53,20 @@ elif score >= 70:
     print("Grade: C")
 else:
     print("Grade: D")
+
+## Nested If Statement
+print("")
+num = 18
+if (num < 0):
+    print("Number is neagtive")
+elif (num > 0):
+    print("Number is positive")
+    if (num <= 10):
+        print("Number is between 1-10")
+    elif (num > 10 and num <= 20):
+        print("Number is between 11-20")
+    else:
+        print("Number is greater than 20")
+else:
+    print("Number is zero")
 
