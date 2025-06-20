@@ -138,3 +138,13 @@ print(text.swapcase())  # pYTHON is fUN
 ---
 
 
+## 🔗 String Joining
+```python
+words = ["Python", "is", "awesome"]
+sentence = " ".join(words)
+print(sentence)
+```
+
+---
+
+
