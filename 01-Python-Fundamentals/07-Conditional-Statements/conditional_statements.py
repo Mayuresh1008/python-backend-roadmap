@@ -1,4 +1,9 @@
-# If-Else
+# If statement
+age = 18 
+if age >= 18:
+    print("You can vote!\n")
+
+# If-Else Statement
 age = int(input("Enter your age: "))
 print("Your age is:", age)
 
