@@ -30,6 +30,7 @@ match x:
         print(x)
 """
 
+# Simple Example
 status = 404
 match status:
     case 200:
@@ -40,6 +41,17 @@ match status:
         print("Server Error")
     case _:
         print("Unknown status")
-    
+
+## Pattern Matching Features
+# Matching Literals
+day = "Monday"
+
+match day:
+    case "Monday" | "Tuesday":
+        print("Weekday")
+    case "Saturday" | "Sunday":
+        print("Weekend")
+
+# Matching with variables
 
         
