@@ -70,3 +70,16 @@ elif (num > 0):
 else:
     print("Number is zero")
 
+# Another example
+print("")
+age = 20
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("You can enter the club!")
+    else:
+        print("Need to see ID first")
+else:
+    print("Too young to enter")
+
