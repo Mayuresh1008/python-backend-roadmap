@@ -32,3 +32,11 @@ for character in name:
 
 ---
 
+## ✂️ String Slicing
+```python
+fruit = "Mongo"
+print(fruit[0:4])  # "Mongo"[0:4] = 'Mong'
+print(fruit[-3:-1])  # from 3rd last to 2nd last char
+print(fruit[::-1])  # Reverses the string
+```
+
