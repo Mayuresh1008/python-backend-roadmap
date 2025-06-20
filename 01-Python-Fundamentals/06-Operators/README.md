@@ -68,3 +68,12 @@ print(x or y)    # True
 ```
 
 ---
+
+## 🔍 6. Membership Operators
+Test if a value is present in a sequence (like string, list, etc).
+```python
+print("a" in "apple")     # True
+print(5 not in [1,2,3])   # True
+```
+
+---
