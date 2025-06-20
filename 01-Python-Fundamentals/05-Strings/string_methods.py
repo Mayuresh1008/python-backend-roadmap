@@ -25,4 +25,7 @@ sentence = "Hello, My name is John, doesn't you fell to say someone Hello"
 print(sentence)
 print(sentence.replace("Hello", "Hi")) # replaces all occurences of string hello with hi
 
-
+names = "John,Alice,Peter"
+print(names)
+print(names.split(",")) # returns a list of substrings in the string, using sep as the separator string
+# In this case "," is a separator(sep) which has created a list of names(substring) from the main string(names) separated by "," sep.
