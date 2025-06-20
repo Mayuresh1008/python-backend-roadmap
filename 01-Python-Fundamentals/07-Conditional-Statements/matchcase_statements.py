@@ -13,3 +13,20 @@ match value:
         # default action
 """
 
+x = 40 # x is the variable to match
+
+match x:
+    # if x is 0
+    case 0:
+        print("x is zero")
+    case 1:
+        print("case is 1")
+    case _ if x < 90:
+        print(x, "is less than 90")
+    case _ if x != 80:
+        print(x, "is greater than 10")
+    case _:
+        print(x)
+        
+        
+        
