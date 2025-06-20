@@ -46,3 +46,12 @@ if num > 0:
     else:
         print("Number is greater than 20")
 ```
+
+## 🪜 One-Line Conditionals (Ternary Operator)
+Compact way of writing simple if-else.
+```python
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
+```
+
