@@ -64,4 +64,14 @@ match point:
     case (x, y):
         print(f"Point at ({x}, {y})")
 
+# Matching with conditions (if in cases)
+age = 17
+match age:
+    case x if x < 13:
+        print("Child")
+    case x if 13 <= x <= 20:
+        print("Teen")
+    case _:
+        print("Adult")
+
         
