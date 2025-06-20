@@ -30,4 +30,25 @@ if temperature > 30:
 else:
     print("It's not too hot")
 
-##
+print("")
+## Elif Statement
+num = int(input("Enter a number:"))
+if (num < 0):
+    print("Number is negative")
+elif (num > 0):
+    print("Number is positive")
+else:
+    print("Number is zero")
+    
+# Another example 
+score = 85
+print("")
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: D")
+
