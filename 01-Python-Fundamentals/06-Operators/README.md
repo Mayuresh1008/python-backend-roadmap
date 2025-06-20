@@ -95,3 +95,10 @@ The order in which operations are performed in complex expressions (PEMDAS rule)
 - **E**: Exponents
 - **MD**: Multiplication / Division
 - **AS**: Addition / Subtraction
+```python
+result = 5 + 3 * 2       # 11 → Multiplication first
+result = (5 + 3) * 2     # 16 → Parentheses first
+result = 10 ** 2 / (4 + 5) * 3  # Exponents → Parentheses → Division → Multiplication
+```
+
+---
