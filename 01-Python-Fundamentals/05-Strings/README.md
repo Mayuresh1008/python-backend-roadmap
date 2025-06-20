@@ -100,3 +100,9 @@ print(str1.center(20, "-"))
 str1 = "hello hello"
 print(str1.count("hello"))  # 2
 ```
+
+### Endswith:
+```python
+print(str1.endswith("hello"))
+```
+
