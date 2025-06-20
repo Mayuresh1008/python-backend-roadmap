@@ -16,3 +16,19 @@ number /= 10 # Divide and assign
 number = round(number)
 number %= 10 # Modulo and assign
 ```
+
+---
+
+## ➕ 2. Arithmetic Operators
+Used to perform basic mathematical operations.
+```python
+print(2 + 2)      # Addition
+print(4 - 2)      # Subtraction
+print(2 * 2)      # Multiplication
+print(24 / 5)     # Division (float)
+print(24 // 5)    # Floor Division (int)
+print(24 % 5)     # Modulo (remainder)
+print(2 ** 3)     # Exponentiation
+```
+
+---
