@@ -20,3 +20,7 @@ print(a)
 print(a.strip("!")) # also removes unwanted character or symbols from the string at both sides.
 print(a.rstrip("!")) # also removes unwanted character or symbols from the string at right side.
 print(a.lstrip("!")) # also removes unwanted character or symbols from the string left side.
+
+sentence = "Hello, My name is John"
+print(sentence)
+print(sentence.replace("Hello", "Hi")) # replaces the string hello with hi
