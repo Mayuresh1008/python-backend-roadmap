@@ -54,23 +54,24 @@ print("")
 x = True
 y = False
 z = True
-print(not x)
-print(not y)
-print(x and y)
-print(x and z)
+print(not x) # inverts the value of x
+print(not y) # inverts the value of y
+print(x and y) # Returns False both values are not True
+print(x and z) # Returns False both values are True
 print(y and z)
-print(x or y)
+print(x or y) # Returns True if one value is True else returns False
 print(x or z)
 print(y or z)
 print(y or x)
 
 # Membership Operators
 print("")
-print("a" in "apple")
-print(5 not in [1,2,3])
+print("a" in "apple") # Returns True 
+print(5 not in [1,2,3]) # Returns True 
 
 # Identity Operators
 a = [1,2]
 b = [1,2]
-print(a is b)
-print(a == b)
+print(a is b) # False (different objects)
+print(a == b) # True
+
