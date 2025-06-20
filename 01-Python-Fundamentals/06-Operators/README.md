@@ -77,3 +77,14 @@ print(5 not in [1,2,3])   # True
 ```
 
 ---
+
+## 🆔 7. Identity Operators
+Compare the memory locations of two objects.
+```python
+a = [1, 2]
+b = [1, 2]
+print(a is b)    # False (different memory)
+print(a == b)    # True (same values)
+```
+
+---
