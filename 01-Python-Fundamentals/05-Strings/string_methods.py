@@ -108,3 +108,12 @@ print(str1.isprintable()) # Return True
 str1 = "Hello world\n" 
 print(str1.isprintable()) # Returns False
 
+# isspace Method
+""" 
+Returns True only if there is a only space present in the string not a single character else returns False
+"""
+print(str1.isspace()) # Returns False
+str1 = "       " # Space spacebar or tab
+print(str1.isspace()) # Returns True
+
+
