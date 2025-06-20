@@ -85,3 +85,17 @@ If other characters or punctuation is found, it returns False.
 """
 str1 = "WelcomeToMyConsole"
 print(str1.isalnum())
+
+# isalpha Method
+""" 
+Returns True if all the characters in the string are alphabet else returns False
+"""
+print(str1.isalpha())
+
+# islower Method
+str1 = "hello world"
+"""
+Returns True if all the characters in the string are in lowercase else returns False 
+"""
+print(str1.islower())
+
