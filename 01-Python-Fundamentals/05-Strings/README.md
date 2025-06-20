@@ -114,5 +114,18 @@ print(str1.index("hello"))  # Raises error if not found
 
 ---
 
+## 🧪 Boolean Check Methods
+```python
+print("Hello123".isalnum())     # True
+print("Hello".isalpha())        # True
+print("123".isdigit())          # True
+print("hello".islower())        # True
+print("HELLO".isupper())        # True
+print("Hello World".istitle())  # True
+print("    ".isspace())         # True
+print("Hello".isprintable())    # True
+```
+
+---
 
 
