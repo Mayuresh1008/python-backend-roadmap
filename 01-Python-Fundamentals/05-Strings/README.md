@@ -95,3 +95,8 @@ str1 = "Welcome"
 print(str1.center(20, "-"))
 ```
 
+### Count:
+```python
+str1 = "hello hello"
+print(str1.count("hello"))  # 2
+```
