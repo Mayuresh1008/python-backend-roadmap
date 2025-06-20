@@ -30,3 +30,10 @@ print(names)
 print(names.split(",")) # returns a list of substrings in the string, using sep as the separator string
 # In this case "," is a separator(sep) which has created a list of names(substring) from the main string(names) separated by "," sep.
 
+blogHeading = "introduction to python"
+print(blogHeading)
+print(blogHeading.capitalize()) # Converts the string into capatalized version
+"""
+The capatalize() method turns only the first letter of the string to uppercase and the rest other characters of the string are turned into lowercase
+There is no effect if the first character is already uppercase.
+"""
