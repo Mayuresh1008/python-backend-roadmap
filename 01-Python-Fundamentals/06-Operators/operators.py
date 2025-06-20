@@ -33,9 +33,10 @@ print(24 % 5) # Modular Division return remainder
 print(2 ** 3) # returns exponent
 print(2 ** 5)
 
-# # Concatenation
-# str1 = "Dave "  + "Gray"
-# print(str1)
+# Concatenation
+print("")
+str1 = "Dave "  + "Gray"
+print(str1)
 
 # # Comparison Operator
 # print(42 == 41)
