@@ -92,3 +92,20 @@ age = 20
 status = "Adult" if age >= 18 else "Minor"
 print(status)
 
+## Boolean Logic in Conditions
+print("")
+# AND (both must be True)
+if age >= 18 and has_id:
+    print("Access granted")
+
+# OR (atleast one must be True)
+day = "Sunday"
+if day == "Saturday" or day == "Sunday":
+    print("It's the weekend!")
+
+# NOT (inverts the condition)
+is_raining = True
+if not is_raining:
+    print("No need of umbrella")
+else:
+    print("Take umbrella with you") 
