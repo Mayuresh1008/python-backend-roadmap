@@ -89,3 +89,9 @@ print(text.capitalize())  # First word capital
 print(text.title())       # Each word capital
 ```
 
+### Center Alignment:
+```python
+str1 = "Welcome"
+print(str1.center(20, "-"))
+```
+
