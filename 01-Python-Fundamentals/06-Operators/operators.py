@@ -46,9 +46,9 @@ print(42 != 42) # returns false both values are equal
 print(42 != 42) # returns true both values are not equal
 print(10 > 5) # greater than operator
 print(10 < 5) # less than operator
-# print(10 >= 5)
-# print(10 <= 10)
-# print(10 <= 5)
+print(10 >= 5) # greater than equal to operator
+print(10 <= 10) # less than equal to operator
+print(10 <= 5) 
 
 # # Logical Operators
 # x = True
