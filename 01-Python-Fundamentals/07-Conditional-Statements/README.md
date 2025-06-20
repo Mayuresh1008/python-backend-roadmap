@@ -81,3 +81,21 @@ else:
 ```
 
 > ✅ Use `if`, `elif`, and `else` to write smarter and cleaner decision-making code!
+
+
+---
+
+## 🧩 Match-Case Statements (Structural Pattern Matching)
+
+Introduced in Python 3.10, `match-case` provides a powerful and clean way to handle multiple conditions — similar to switch-case in other languages but more flexible.
+
+### 🔹 Basic Syntax
+```python
+match variable:
+    case pattern1:
+        # action1
+    case pattern2:
+        # action2
+    case _:
+        # default action
+```
