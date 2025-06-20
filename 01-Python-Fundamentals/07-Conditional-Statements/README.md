@@ -151,3 +151,17 @@ match point:
     case (x, y):
         print(f"Point at ({x}, {y})")
 ```
+
+### 🔸 Match with Ranges or Conditions
+```python
+age = 17
+match age:
+    case x if x < 13:
+        print("Child")
+    case x if 13 <= x <= 20:
+        print("Teen")
+    case _:
+        print("Adult")
+```
+
+> 📘 `match-case` is more readable than deeply nested `if-elif` chains and is a great tool for clean Python code!
