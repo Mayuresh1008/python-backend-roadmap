@@ -15,3 +15,6 @@ print(sentence)
 name = "Alice"
 age = 25
 print("My name is {} and I'm {} years old.".format(name, age))
+
+# f-strings (new method)
+print(f"My name is {name} and I'm {age} years old.")
