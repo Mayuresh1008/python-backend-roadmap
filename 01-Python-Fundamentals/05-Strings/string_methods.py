@@ -123,3 +123,11 @@ Returns True only if all the words in a string starts with a uppercase letter el
 str1 = "Hello World"
 print(str1.istitle()) # Returns True
 
+# isupper Method 
+""" 
+Returns True if all the character of the string are in uppercase.
+"""
+print(str1.isupper()) # Returns False
+str1 = "THE DEVIL IS HERE!!!"
+print(str1.isupper()) # Returns True
+
