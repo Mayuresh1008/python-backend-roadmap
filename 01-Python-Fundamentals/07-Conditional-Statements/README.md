@@ -113,3 +113,17 @@ match status:
     case _:
         print("Unknown status")
 ```
+
+### 🔸 Match with Conditions
+```python
+x = 40
+match x:
+    case 0:
+        print("x is zero")
+    case 1:
+        print("x is one")
+    case _ if x < 90:
+        print(f"{x} is less than 90")
+    case _:
+        print(x)
+```
