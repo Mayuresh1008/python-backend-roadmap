@@ -3,9 +3,9 @@ Python Operators:
 Symbols used to perform operations on values and the variables that hold those values.
 """
 
-# # Assigment Operator
-# name = "Dave"
-# print(name)
+# Assigment Operator
+name = "Dave"
+print(name)
 # number = 42
 # print(number)
 # number += 1
