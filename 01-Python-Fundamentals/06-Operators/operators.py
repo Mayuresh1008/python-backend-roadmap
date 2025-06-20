@@ -30,7 +30,7 @@ print(24 // 5)
 print(round(24 / 5))
 print(24 % 5)
 print(2 ** 3)
-# print(2 ** 5)
+print(2 ** 5)
 
 # # Concatenation
 # str1 = "Dave "  + "Gray"
