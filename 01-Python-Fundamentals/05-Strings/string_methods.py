@@ -144,3 +144,10 @@ Uppercase to lowercase and vice versa.
 """
 str1 = "Python is a Interpreted Language."
 print(str1.swapcase())
+
+# isdigit Method
+""" 
+Returns True if string contains only digits not a single alphabet or other character else returns False
+"""
+print("Hello123".isdigit()) # Returns False if we isalnum() method then it will return True
+print("123".isdigit()) # Returns True
