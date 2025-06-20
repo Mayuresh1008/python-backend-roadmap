@@ -29,3 +29,4 @@ names = "John,Alice,Peter"
 print(names)
 print(names.split(",")) # returns a list of substrings in the string, using sep as the separator string
 # In this case "," is a separator(sep) which has created a list of names(substring) from the main string(names) separated by "," sep.
+
