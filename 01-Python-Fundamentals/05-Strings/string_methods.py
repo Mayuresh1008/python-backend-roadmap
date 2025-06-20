@@ -131,3 +131,16 @@ print(str1.isupper()) # Returns False
 str1 = "THE DEVIL IS HERE!!!"
 print(str1.isupper()) # Returns True
 
+# startswith Method
+""" 
+Returns True if the given string startswith the specified string else returns False
+"""
+print(str1.startswith("T"))
+
+# swapcase Method
+""" 
+It changes the character casing of the string.
+Uppercase to lowercase and vice versa.
+"""
+str1 = "Python is a Interpreted Language."
+print(str1.swapcase())
