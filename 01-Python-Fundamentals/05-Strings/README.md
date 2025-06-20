@@ -129,3 +129,12 @@ print("Hello".isprintable())    # True
 ---
 
 
+## 🔄 Case Swap
+```python
+text = "Python IS Fun"
+print(text.swapcase())  # pYTHON is fUN
+```
+
+---
+
+
