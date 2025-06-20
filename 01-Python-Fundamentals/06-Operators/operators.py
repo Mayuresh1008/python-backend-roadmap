@@ -22,14 +22,15 @@ number %= 10
 print(number)
 
 # # Arithmetic Operator
-print(2 + 2)
-print(4 - 2)
-print(2 * 2)
-print(24 / 5)
-print(24 // 5)
-print(round(24 / 5))
-print(24 % 5)
-print(2 ** 3)
+print("")
+print(2 + 2) # Addition
+print(4 - 2) # Subtraction
+print(2 * 2) # Multiplication
+print(24 / 5) # Division
+print(24 // 5) # Floor Division
+print(round(24 / 5)) # Round up value to 5
+print(24 % 5) # Modular Division return remainder
+print(2 ** 3) # returns exponent
 print(2 ** 5)
 
 # # Concatenation
