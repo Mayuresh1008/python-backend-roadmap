@@ -159,3 +159,13 @@ print("My name is {} and I am {} years old.".format(name, age))
 ```python
 print(f"My name is {name} and I am {age} years old.")
 ```
+
+### Decimal & Alignment
+```python
+pi = 3.14159
+print(f"Pi: {pi:.2f}")
+print(f"{'Left':<10}|{'Right':>10}")
+```
+
+---
+
