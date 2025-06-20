@@ -41,4 +41,10 @@ There is no effect if the first character is already uppercase.
 print(blogHeading)
 print(blogHeading.title()) # Returns the string where every word is titlecased means every word's first letter will be in uppercase.
 
-
+str1 = "Welcome to the Console!!!"
+print(str1)
+print(len(str1))
+print(str1.center(50))
+print(len(str1.center(50)))
+# We can also add padding characters to the vacant space
+print(str1.center(50,"-"))
