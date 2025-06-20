@@ -48,3 +48,6 @@ print(str1.center(50))
 print(len(str1.center(50)))
 # We can also add padding characters to the vacant space
 print(str1.center(50,"-"))
+
+print(str1.count("o")) # returns the number of times the given value has occurred within the given string.
+print(sentence.count("Hello")) # returns 2
