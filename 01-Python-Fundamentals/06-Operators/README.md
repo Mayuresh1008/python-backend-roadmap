@@ -40,3 +40,16 @@ print(str1)  # Dave Gray
 ```
 
 ---
+
+## 🧾 4. Comparison Operators
+Used to compare values and return boolean results.
+```python
+print(42 == 41)  # Equal to → False
+print(42 != 42)  # Not equal to → False
+print(10 > 5)    # Greater than → True
+print(10 < 5)    # Less than → False
+print(10 >= 5)   # Greater than or equal → True
+print(10 <= 5)   # Less than or equal → False
+```
+
+---
