@@ -40,8 +40,8 @@ print(str1)
 
 # Comparison Operator
 print("")
-print(42 == 41) # returns false both value are not equal
-# print(42 == 42)
+print(42 == 41) # returns false both values are not equal
+print(42 == 42) # returns true both values are equal
 # print(42 != 42)
 # print(42 != 42)
 # print(10 > 5)
