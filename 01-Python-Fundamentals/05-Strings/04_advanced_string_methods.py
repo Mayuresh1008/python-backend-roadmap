@@ -20,3 +20,6 @@ print("My name is {} and I'm {} years old.".format(name, age))
 print(f"My name is {name} and I'm {age} years old.")
 
 ## Advanced Formatting
+# Decimal places
+pi = 3.1415926535
+print(f"Pi rounded: {pi:.2f}") 
