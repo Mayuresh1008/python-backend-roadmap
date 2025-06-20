@@ -50,11 +50,11 @@ print(10 >= 5) # greater than equal to operator
 print(10 <= 10) # less than equal to operator
 print(10 <= 5) 
 
-# # Logical Operators
-# x = True
-# y = False
-# z = True
-# print(not x)
+# Logical Operators
+x = True
+y = False
+z = True
+print(not x)
 # print(not y)
 # print(x and y)
 # print(x and z)
