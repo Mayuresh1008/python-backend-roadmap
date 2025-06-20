@@ -56,9 +56,9 @@ y = False
 z = True
 print(not x)
 print(not y)
-# print(x and y)
-# print(x and z)
-# print(y and z)
+print(x and y)
+print(x and z)
+print(y and z)
 # print(x or y)
 # print(x or z)
 # print(y or z)
