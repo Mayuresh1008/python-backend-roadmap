@@ -6,8 +6,8 @@ Symbols used to perform operations on values and the variables that hold those v
 # Assigment Operator
 name = "Dave"
 print(name)
-# number = 42
-# print(number)
+number = 42
+print(number)
 # number += 1
 # print(number)
 # number -= 1
