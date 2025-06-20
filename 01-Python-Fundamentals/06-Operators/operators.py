@@ -16,8 +16,10 @@ number *= 10
 print(number)
 number /= 10
 print(number)
-# number = round(number)
-# print(number)
+number = round(number) # round up the decimal value into integer
+print(number)
+number %= 10
+print(number)
 
 # # Arithmetic Operator
 # print(2 + 2)
