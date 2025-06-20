@@ -53,3 +53,18 @@ print(10 <= 5)   # Less than or equal → False
 ```
 
 ---
+
+## 🧠 5. Logical Operators
+Used to combine conditional statements.
+```python
+x = True
+y = False
+z = True
+
+print(not x)     # False
+print(x and y)   # False
+print(x and z)   # True
+print(x or y)    # True
+```
+
+---
