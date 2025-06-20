@@ -66,8 +66,22 @@ print(str1.endswith("to", 4, 10)) # checks if the string in the given index slic
 
 # Find Method
 """ 
-The find() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then return -1.
+The find() method searches for the first occurrence of the given value and returns the index where it is present. 
+If given value is absent from the string then return -1.
 """
 str1 = "He's name is Dan. He is an honest man."
 print(str1.find("is"))
 
+# Index Method
+""" 
+The index() method searches for the first occurence of the given value and returns the index where it is present. If given value is absent from the string then raises an exception(error).
+"""
+print(str1.index("Dan")) 
+
+# isalnum() Method
+""" 
+The isalnum() method returns True only if the string only consists of A-Z, a-z, 0-9.
+If other characters or punctuation is found, it returns False.
+"""
+str1 = "WelcomeToMyConsole"
+print(str1.isalnum())
