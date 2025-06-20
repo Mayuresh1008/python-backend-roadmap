@@ -137,3 +137,17 @@ match day:
     case "Saturday" | "Sunday":
         print("Weekend")
 ```
+
+### 🔸 Matching Tuples / Variables
+```python
+point = (1, 4)
+match point:
+    case (0, 0):
+        print("Origin")
+    case (x, 0):
+        print(f"X-axis at {x}")
+    case (0, y):
+        print(f"Y-axis at {y}")
+    case (x, y):
+        print(f"Point at ({x}, {y})")
+```
