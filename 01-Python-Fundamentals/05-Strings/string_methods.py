@@ -99,3 +99,12 @@ Returns True if all the characters in the string are in lowercase else returns F
 """
 print(str1.islower())
 
+# isprintable Method
+""" 
+Returns True if all the characters in the string are printable
+else returns False
+"""
+print(str1.isprintable()) # Return True
+str1 = "Hello world\n" 
+print(str1.isprintable()) # Returns False
+
