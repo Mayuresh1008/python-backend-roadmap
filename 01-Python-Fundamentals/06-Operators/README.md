@@ -106,3 +106,15 @@ result = 10 ** 2 / (4 + 5) * 3  # Exponents → Parentheses → Division → Mul
 ```
 
 ---
+
+## ✅ Summary Table
+| Operator Type       | Examples                       |
+|---------------------|--------------------------------|
+| Assignment          | =, +=, -=, *=, /=, %=          |
+| Arithmetic          | +, -, *, /, //, %, **          |
+| Comparison          | ==, !=, >, <, >=, <=           |
+| Logical             | and, or, not                   |
+| Membership          | in, not in                     |
+| Identity            | is, is not                     |
+| Precedence Rule     | Follows PEMDAS                 |
+
