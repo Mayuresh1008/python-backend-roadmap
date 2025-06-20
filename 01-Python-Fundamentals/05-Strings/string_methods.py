@@ -37,3 +37,8 @@ print(blogHeading.capitalize()) # Converts the string into capatalized version
 The capatalize() method turns only the first letter of the string to uppercase and the rest other characters of the string are turned into lowercase
 There is no effect if the first character is already uppercase.
 """
+
+print(blogHeading)
+print(blogHeading.title()) # Returns the string where every word is titlecased means every word's first letter will be in uppercase.
+
+
