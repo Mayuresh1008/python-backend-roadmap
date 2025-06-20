@@ -32,3 +32,11 @@ print(2 ** 3)     # Exponentiation
 ```
 
 ---
+
+## 🔗 3. String Concatenation
+```python
+str1 = "Dave " + "Gray"
+print(str1)  # Dave Gray
+```
+
+---
