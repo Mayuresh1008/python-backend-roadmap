@@ -70,3 +70,14 @@ else:
     print("Take umbrella with you")
 ```
 
+## ✔️ Truthy & Falsy Values
+Python treats some values as `True` or `False` in conditions.
+```python
+name = "John"
+if name:
+    print("Hello, " + name)
+else:
+    print("No name provided")
+```
+
+> ✅ Use `if`, `elif`, and `else` to write smarter and cleaner decision-making code!
