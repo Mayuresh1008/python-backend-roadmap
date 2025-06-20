@@ -9,3 +9,13 @@ age = 18
 if age >= 18:
     print("You can vote!")
 ```
+
+## 🔁 If-Else Statement
+Provides an alternative when the `if` condition is false.
+```python
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You can drive")
+else:
+    print("You cannot drive")
+```
