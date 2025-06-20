@@ -38,8 +38,9 @@ print("")
 str1 = "Dave "  + "Gray"
 print(str1)
 
-# # Comparison Operator
-# print(42 == 41)
+# Comparison Operator
+print("")
+print(42 == 41) # returns false both value are not equal
 # print(42 == 42)
 # print(42 != 42)
 # print(42 != 42)
