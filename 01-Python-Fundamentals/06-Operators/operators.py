@@ -59,9 +59,9 @@ print(not y)
 print(x and y)
 print(x and z)
 print(y and z)
-# print(x or y)
-# print(x or z)
-# print(y or z)
-# print(y or x)
+print(x or y)
+print(x or z)
+print(y or z)
+print(y or x)
 
 # # Membership Operators
