@@ -89,12 +89,16 @@ print(a == b)    # True (same values)
 
 ---
 
+
+---
+
 ## 🧮 8. Operator Precedence
 The order in which operations are performed in complex expressions (PEMDAS rule):
 - **P**: Parentheses
 - **E**: Exponents
 - **MD**: Multiplication / Division
 - **AS**: Addition / Subtraction
+
 ```python
 result = 5 + 3 * 2       # 11 → Multiplication first
 result = (5 + 3) * 2     # 16 → Parentheses first
