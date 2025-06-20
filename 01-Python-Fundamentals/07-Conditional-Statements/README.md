@@ -19,3 +19,17 @@ if age >= 18:
 else:
     print("You cannot drive")
 ```
+
+## ➕ Elif Statement
+Checks multiple conditions sequentially.
+```python
+num = int(input("Enter a number:"))
+if num < 0:
+    print("Number is negative")
+elif num > 0:
+    print("Number is positive")
+elif num >= 999:
+    print("Number is Special and out of range")
+else:
+    print("Number is zero")
+```
