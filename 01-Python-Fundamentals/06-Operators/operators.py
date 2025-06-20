@@ -64,4 +64,7 @@ print(x or z)
 print(y or z)
 print(y or x)
 
-# # Membership Operators
+# Membership Operators
+print("")
+print("a" in "apple")
+print(5 not in [1,2,3])
