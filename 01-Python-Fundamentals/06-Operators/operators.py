@@ -22,7 +22,7 @@ number %= 10
 print(number)
 
 # # Arithmetic Operator
-# print(2 + 2)
+print(2 + 2)
 # print(4 - 2)
 # print(2 * 2)
 # print(24 / 5)
