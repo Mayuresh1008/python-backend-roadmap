@@ -62,3 +62,11 @@ print(name.upper())
 print(name.lower())
 ```
 
+### Whitespace Removal:
+```python
+greet = "   Hello!   "
+print(greet.strip())
+print(greet.lstrip())
+print(greet.rstrip())
+```
+
