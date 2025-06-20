@@ -116,4 +116,10 @@ print(str1.isspace()) # Returns False
 str1 = "       " # Space spacebar or tab
 print(str1.isspace()) # Returns True
 
+# istitle Method
+""" 
+Returns True only if all the words in a string starts with a uppercase letter else returns False
+"""
+str1 = "Hello World"
+print(str1.istitle()) # Returns True
 
