@@ -12,7 +12,8 @@ match value:
     case _: # default case
         # default action
 """
-
+""" 
+# Example
 x = 40 # x is the variable to match
 
 match x:
@@ -27,6 +28,18 @@ match x:
         print(x, "is greater than 10")
     case _:
         print(x)
-        
-        
+"""
+
+status = 404
+match status:
+    case 200:
+        print("Success")
+    case 404:
+        print("Not Found")
+    case 500:
+        print("Server Error")
+    case _:
+        print("Unknown status")
+    
+
         
