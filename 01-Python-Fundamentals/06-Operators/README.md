@@ -88,3 +88,10 @@ print(a == b)    # True (same values)
 ```
 
 ---
+
+## 🧮 8. Operator Precedence
+The order in which operations are performed in complex expressions (PEMDAS rule):
+- **P**: Parentheses
+- **E**: Exponents
+- **MD**: Multiplication / Division
+- **AS**: Addition / Subtraction
