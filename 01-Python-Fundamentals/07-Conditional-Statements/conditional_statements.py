@@ -109,3 +109,12 @@ if not is_raining:
     print("No need of umbrella")
 else:
     print("Take umbrella with you") 
+
+## Truthy/Falsy Values
+print("")
+name = "John"
+# name = ""
+if name:  
+    print("Hello, " + name) # this will be executed when name is provided
+else:
+    print("No name provided")  # this will be executed when name is not provided
