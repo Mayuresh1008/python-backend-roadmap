@@ -82,3 +82,10 @@ names = "John,Alice,Peter"
 print(names.split(","))
 ```
 
+### Capitalize & Title Case:
+```python
+text = "introduction to python"
+print(text.capitalize())  # First word capital
+print(text.title())       # Each word capital
+```
+
