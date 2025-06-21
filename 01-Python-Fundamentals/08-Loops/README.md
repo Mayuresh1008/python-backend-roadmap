@@ -24,3 +24,10 @@ for i in range(1, 6):
 for i in range(1, 11):
     print(f"{i} * {i} = {i*i}")
 ```
+
+### 🔸 Iterating Through Lists
+```python
+colors = ["Red", "Green", "Blue", "Yellow"]
+for color in colors:
+    print(color)
+```
