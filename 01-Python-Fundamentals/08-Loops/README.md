@@ -94,3 +94,26 @@ while count > 0:
     print(count)
     count -= 1
 ```
+
+### 🔸 Else with While Loop
+```python
+x = 5
+while x > 0:
+    print(x)
+    x -= 1
+else:
+    print("counter is 0")
+```
+
+### 🔸 User Input Example
+```python
+secret = 7
+guess = 0
+while guess != secret:
+    guess = int(input("Guess the number: "))
+    if guess != secret:
+        print("Wrong! Try again.")
+print("Correct guess!!!")
+```
+
+---
