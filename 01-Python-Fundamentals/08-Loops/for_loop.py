@@ -11,7 +11,19 @@ for i in name:
 
 print("")
 
-# Iterating through lists
+## Examples of for loop:
+# Example1 : Print number 1 to 5
+print("")
+for i in range(1, 6):
+    print(i)
+
+# Example2 : Print squares of numbers from 1 to 10
+print("")
+for i in range(1, 11):
+    print(f"{i} * {i} = {i*i}")
+
+# Example3 : Iterating through lists
+print("")
 colors = ["Red", "Green", "Blue", "Yellow"]
 for color in colors:
     print(color)
