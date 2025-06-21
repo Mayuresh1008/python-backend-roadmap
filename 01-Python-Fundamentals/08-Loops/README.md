@@ -13,3 +13,14 @@ name = "Abhishek"
 for i in name:
     print(i, end=" ")
 ```
+
+### 🔸 Print Numbers
+```python
+# Print 1 to 5
+for i in range(1, 6):
+    print(i)
+
+# Print squares of numbers 1 to 10
+for i in range(1, 11):
+    print(f"{i} * {i} = {i*i}")
+```
