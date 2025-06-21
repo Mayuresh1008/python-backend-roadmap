@@ -120,3 +120,33 @@ print("Correct guess!!!")
 
 ## 🔹 Loop Control Statements
 Used to alter the flow of the loop.
+
+### 🛑 break
+Immediately exits the loop.
+```python
+for i in range(1, 10):
+    if i == 5:
+        print("Stopping at 5")
+        break
+    print(i)
+```
+
+### 🔄 continue
+Skips the current iteration and proceeds to the next.
+```python
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+```
+
+### 🔲 pass
+Placeholder that does nothing. Used to write logic later.
+```python
+for i in range(5):
+    if i == 2:
+        pass
+    print(i)
+```
+
+> 🧠 Loops are essential for performing repetitive tasks in a clean and efficient way!
