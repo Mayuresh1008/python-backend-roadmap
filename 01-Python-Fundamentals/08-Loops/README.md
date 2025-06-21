@@ -117,3 +117,6 @@ print("Correct guess!!!")
 ```
 
 ---
+
+## 🔹 Loop Control Statements
+Used to alter the flow of the loop.
