@@ -49,4 +49,18 @@ print("")
 for i in range(5, 0, -1):
     print(i)
 
-# Examples
+# Example1 : Print table of 7
+print("")
+for i in range(1, 11):
+    print(f"7 * {i} = {7 * i}")
+
+# Example2 : Print even numbers from 2 to 20
+print("")
+for i in range(2, 21, 2):
+    print(i)
+
+# Example3 : Reverse loop for countdown
+print("")
+for sec in range(10, 0, -1):
+    print(f"Countdown: {sec}")
+print("Blast off!!!")
