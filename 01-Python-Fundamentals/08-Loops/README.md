@@ -76,3 +76,21 @@ print("Blast off!!!")
 ```
 
 ---
+
+## 🔹 While Loop
+Use `while` loops when the number of iterations is not known beforehand.
+
+### ✅ Basic Examples
+```python
+# While loop increasing
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+
+# While loop decreasing
+count = 5
+while count > 0:
+    print(count)
+    count -= 1
+```
