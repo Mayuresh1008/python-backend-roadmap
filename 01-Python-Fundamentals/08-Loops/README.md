@@ -31,3 +31,11 @@ colors = ["Red", "Green", "Blue", "Yellow"]
 for color in colors:
     print(color)
 ```
+
+### 🔸 Nested For Loops
+```python
+for color in colors:
+    print(color)
+    for letter in color:
+        print(letter)
+```
