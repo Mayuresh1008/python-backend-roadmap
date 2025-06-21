@@ -39,3 +39,23 @@ for color in colors:
     for letter in color:
         print(letter)
 ```
+
+### 🔸 Range Function
+```python
+# range(stop)
+for i in range(5):
+    print(i)
+
+# range(start, stop)
+for i in range(3, 8):
+    print(i)
+
+# range(start, stop, step)
+for i in range(1, 12, 2):
+    print(i)
+
+# Reverse loop
+for i in range(5, 0, -1):
+    print(i)
+```
+
