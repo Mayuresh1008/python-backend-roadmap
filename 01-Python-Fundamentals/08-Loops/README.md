@@ -59,3 +59,20 @@ for i in range(5, 0, -1):
     print(i)
 ```
 
+### 🔸 More For Loop Examples
+```python
+# Table of 7
+for i in range(1, 11):
+    print(f"7 * {i} = {7 * i}")
+
+# Even numbers 2 to 20
+for i in range(2, 21, 2):
+    print(i)
+
+# Countdown
+for sec in range(10, 0, -1):
+    print(f"Countdown: {sec}")
+print("Blast off!!!")
+```
+
+---
