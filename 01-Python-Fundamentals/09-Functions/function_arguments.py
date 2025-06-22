@@ -82,4 +82,23 @@ def full_name(**name):
 
 full_name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
+# ------------------------------------------------------------------------------------------------------------------------
+
+# Return Statement - It is used to return the value of the expression back to the calling function.
+
+def average(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    return sum / len(numbers)
+
+avg = average(5, 3, 6, 2)
+print("Average of numbers: ", avg)
+
+# Another example
+def name(fname, mname, lname):
+    return "Hello, " + fname + " " + mname + " " + lname
+
+print(name("Mayuresh", "Umesh", "Patil"))
+
 
