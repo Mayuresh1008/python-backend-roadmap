@@ -13,3 +13,13 @@ type checking - type(), isinstance()
 
 """
 
+## Input/Output Functions
+
+# print() - Show output
+
+print("Hello, world!")
+
+# input() - Take user input
+name = input("Enter your name: ")
+print("Hello", name)
+
