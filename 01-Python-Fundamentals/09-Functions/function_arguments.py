@@ -37,11 +37,29 @@ def fullname(fname, mname, lname):
 
 fullname(mname = "Umesh", lname = "Patil", fname = "Mayuresh")
 
-#-----------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------------
 
 ## Required Arguments - we should must pass the arguments if their no default value of that parameter
 
 average(5, 6, 1)
 
 name("Peter", "Quill")
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+## Variable Length Postional Arguments - *args
+# Use *args when you want to accept multiple positional values, and don't know the exact number of input
+# Python stores them as tuple
+
+def averageOfNumbers(*numbers):
+    # this function stores the parameters as tuples
+    # print(type(numbers))
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print("Average is: ", sum/len(numbers))
+
+averageOfNumbers(5, 6, 4)
+
+# ------------------------------------------------------------------------------------------------------------------------
 
