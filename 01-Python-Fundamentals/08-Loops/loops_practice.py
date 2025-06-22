@@ -20,11 +20,13 @@ else:
     print("Value is now equal to: " + str(value))
 """ 
 
+""" 
 # iterating through list
-# print("")
+print("")
 names = ["Dave", "Sara", "John"]
-# for x in names:
-#     print(x)
+for x in names:
+    print(x)
+"""
 
 """ 
 # interating through string
@@ -47,3 +49,18 @@ for x in names:
         continue
     print(x)
 """    
+
+## range function examples
+print("")
+for x in range(4):
+    print(x)
+
+print("")
+for x in range(2, 4):
+    print(x)
+
+print("")
+for x in range(0, 101, 5): # number increments by 5
+    print(x)
+else:
+    print("Glad that\'s over")
