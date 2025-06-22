@@ -2,11 +2,33 @@
 Functions Arguments and return statement 
 
 There are four types of arguments that we can provide in a function:
+> Positional Arguments
 > Default Arguments
 > Keyword Arguments
 > Required Arguments
-> Variable length Arguments
+> Variable Length Positional Arguments
+> Variable Length Keywords Arguments
 """
+
+## Positional Arguments - Values passed to a function in the same order as parameters are defined.
+def average(a, b, c):
+    print("The average is ", ((a + b + c)/ 3))
+
+average(5, 6, 7)
+
+# Another example 
+def name(fname, mname, lname):
+    print("Hello, ", fname, mname, lname)
+
+name("Mayuresh", "Umesh", "Patil")
+
+# One more example
+def student(name, age, city):
+    print(f"{name} is {age} years old and lives in {city}.")
+
+student("Mayuresh", 22, "Vadodara")
+
+# ------------------------------------------------------------------------------------------------------------------------
 
 ## Default Arguments - we can provide default value while creating a function
 
@@ -29,6 +51,7 @@ name("Mayuresh", "Umesh", "Patil")
 
 ## Keyword Arguments - we can provide arguments with key = value, this way the interpreter regonizes the arguments by the parameter name.
 
+# calling average function from above
 average(b=9, a=21) # Keyword arguments 
 
 # Another example
@@ -37,6 +60,11 @@ def fullname(fname, mname, lname):
 
 fullname(mname = "Umesh", lname = "Patil", fname = "Mayuresh")
 
+# One more example 
+def student(name, age, city):
+    print(f"{name} is {age} years old and lives in {city}.")
+
+student(age=21, city="Vadodara", name="Mayuresh")
 # ------------------------------------------------------------------------------------------------------------------------
 
 ## Required Arguments - we should must pass the arguments if their no default value of that parameter
@@ -70,7 +98,7 @@ print("James", "Buchanan", "Barnes") # printing a tuple of names
 
 # ------------------------------------------------------------------------------------------------------------------------
 
-# Another 
+
 ## Variable Length Keyword Arguments - **kwargs
 # Use **kwargs when you want to accept multiple keyword arguments.
 # Python stores them as a dictionary
@@ -84,7 +112,7 @@ full_name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
 # ------------------------------------------------------------------------------------------------------------------------
 
-# Return Statement - It is used to return the value of the expression back to the calling function.
+## Return Statement - It is used to return the value of the expression back to the calling function.
 
 def average(*numbers):
     sum = 0
@@ -100,5 +128,6 @@ def name(fname, mname, lname):
     return "Hello, " + fname + " " + mname + " " + lname
 
 print(name("Mayuresh", "Umesh", "Patil"))
+
 
 
