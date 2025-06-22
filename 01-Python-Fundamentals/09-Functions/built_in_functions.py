@@ -29,3 +29,15 @@ print("")
 
 num = "10"
 print(int(num) + 5)
+
+print("")
+
+## Type Checking Functions
+
+x = 5.5
+print(type(x))
+print(isinstance(x, int))
+print(isinstance(x, float))
+
+print("")
+
