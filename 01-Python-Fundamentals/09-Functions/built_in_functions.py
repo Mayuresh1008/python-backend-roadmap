@@ -23,3 +23,9 @@ print("Hello, world!")
 name = input("Enter your name: ")
 print("Hello", name)
 
+print("")
+
+## Type Conversion Functions
+
+num = "10"
+print(int(num) + 5)
