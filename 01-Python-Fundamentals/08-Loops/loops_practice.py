@@ -48,8 +48,9 @@ for x in names:
     if x == "Sara":
         continue
     print(x)
-"""    
-
+"""  
+  
+""" 
 ## range function examples
 print("")
 for x in range(4):
@@ -64,3 +65,4 @@ for x in range(0, 101, 5): # number increments by 5
     print(x)
 else:
     print("Glad that\'s over")
+"""
