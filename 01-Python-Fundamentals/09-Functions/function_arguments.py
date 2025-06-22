@@ -4,16 +4,17 @@ Functions Arguments and return statement
 There are four types of arguments that we can provide in a function:
 > Default Arguments
 > Keyword Arguments
-> Variable length Arguments
 > Required Arguments
+> Variable length Arguments
 """
 
-## Default Arguments
-def average(a=9, b=1): # if we dont provide any value then this values are used by the function for execution
-    print("The average is ", (a + b/ 2))
+## Default Arguments - we can provide default value while creating a function
+
+def average(a=9, b=1, c=2): # if we dont provide any value then this values are used by the function for execution
+    print("The average is ", ((a + b + c)/ 3))
     
 # average(4, 6)
-average(1, 5) # this values will replace the default values
+average(1, 5, 6) # this values will replace the default values
 average(5) # a=5,b will be the default value 1 
 average(b=9) # here b=9, a will be the default value 9
 
@@ -23,3 +24,24 @@ def name(fname, mname = "Jhon", lname = "Whatson"):
 
 name("Amy")
 name("Mayuresh", "Umesh", "Patil")
+
+# ------------------------------------------------------------------------------------------------------------------------
+
+## Keyword Arguments - we can provide arguments with key = value, this way the interpreter regonizes the arguments by the parameter name.
+
+average(b=9, a=21) # Keyword arguments 
+
+# Another example
+def fullname(fname, mname, lname):
+    print("Hello, ", fname, mname, lname)
+
+fullname(mname = "Umesh", lname = "Patil", fname = "Mayuresh")
+
+#-----------------------------------------------------------------------------------------------------------------------
+
+## Required Arguments - we should must pass the arguments if their no default value of that parameter
+
+average(5, 6, 1)
+
+name("Peter", "Quill")
+
