@@ -61,5 +61,12 @@ def averageOfNumbers(*numbers):
 
 averageOfNumbers(5, 6, 4)
 
+# Another example 
+def names(*name):
+    print("Hello, ", *name)
+
+print("James", "Buchanan", "Barnes") # printing a list of names
+
+
 # ------------------------------------------------------------------------------------------------------------------------
 
