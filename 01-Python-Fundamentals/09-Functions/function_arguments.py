@@ -126,6 +126,13 @@ def full_name(**name):
 
 full_name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
+# One more example 
+def show_profile(**details):
+        for key, value in details.items():
+            print(f"{key} : {value}")
+            
+show_profile(name="Mayuresh", age=21, city="Vadodara", profession="Developer")
+
 # ------------------------------------------------------------------------------------------------------------------------
 print("")
 ## Return Statement - It is used to return the value of the expression back to the calling function.
