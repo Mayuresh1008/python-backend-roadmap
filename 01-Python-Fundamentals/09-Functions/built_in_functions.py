@@ -60,4 +60,12 @@ print("")
 a = 10
 print(id(a))
 
-help(str)
+# help(str)
+
+print("\n\n")
+
+## Example : Combine Multiple Built-in Functions
+
+name = input("Enter your name: ").strip().title()
+print("Hello", name)
+print("Name length:", len(name))
