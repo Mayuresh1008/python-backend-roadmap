@@ -166,3 +166,26 @@ while True:
     if not condition:
         break
 ```
+
+### 🔺 Example: Password Checker
+```python
+while True:
+    password = input("Enter the password:")
+    if password == "python123":
+        print("Access granted!!!")
+        break
+    else:
+        print("Wrong password, Try again!!")
+```
+
+### 🔺 Example: Keep Adding Until 0 is Entered
+```python
+while True:
+    num = int(input("Enter a number (0 to stop): "))
+    if num == 0:
+        print("Loop ended")
+        break
+    print(f"You entered: {num}")
+```
+
+> 📝 Use this technique when your code needs to run **at least once** before checking the condition.
