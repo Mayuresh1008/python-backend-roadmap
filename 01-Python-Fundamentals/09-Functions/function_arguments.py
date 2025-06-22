@@ -152,5 +152,30 @@ def name(fname, mname, lname):
 
 print(name("Mayuresh", "Umesh", "Patil"))
 
+# example of returning single value
+def square(n):
+    return n * n
+
+print(square(4))
+
+# example of returning multiple values
+def calc(a, b):
+    return a + b, a - b, a * b
+
+add, sub, mul = calc(10, 5)
+
+# Return nothing (None)
+def show():
+    print("Hello")
+
+result = show()
+print(result)
+
+# ----------------------------------------------------------------------------------------------------------------------
 
 
+# Example of All Argument Types:
+def student_info(name, age=18, *hobbies, **details):
+    print(name, age, hobbies, details)
+
+student_info("Mayuresh", 20, "cricket", "Music", city="Vadodara", grade="A")
