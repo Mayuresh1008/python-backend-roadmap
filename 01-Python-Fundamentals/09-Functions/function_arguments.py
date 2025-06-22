@@ -29,7 +29,7 @@ def student(name, age, city):
 student("Mayuresh", 22, "Vadodara")
 
 # ------------------------------------------------------------------------------------------------------------------------
-
+print("")
 ## Default Arguments - we can provide default value while creating a function
 
 def average(a=9, b=1, c=2): # if we dont provide any value then this values are used by the function for execution
@@ -47,8 +47,15 @@ def name(fname, mname = "Jhon", lname = "Whatson"):
 name("Amy")
 name("Mayuresh", "Umesh", "Patil")
 
-# ------------------------------------------------------------------------------------------------------------------------
+# One More Example
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
 
+greet() # Uses default
+greet("Mayuresh") # Overrides default
+
+# ------------------------------------------------------------------------------------------------------------------------
+print("")
 ## Keyword Arguments - we can provide arguments with key = value, this way the interpreter regonizes the arguments by the parameter name.
 
 # calling average function from above
@@ -66,7 +73,7 @@ def student(name, age, city):
 
 student(age=21, city="Vadodara", name="Mayuresh")
 # ------------------------------------------------------------------------------------------------------------------------
-
+print("")
 ## Required Arguments - we should must pass the arguments if their no default value of that parameter
 
 average(5, 6, 1)
@@ -74,7 +81,7 @@ average(5, 6, 1)
 name("Peter", "Quill")
 
 # ------------------------------------------------------------------------------------------------------------------------
-
+print("")
 ## Variable Length Postional Arguments - *args
 # Use *args when you want to accept multiple positional values, and don't know the exact number of input
 # Python stores them as tuple
@@ -95,10 +102,19 @@ def names(*name):
 
 print("James", "Buchanan", "Barnes") # printing a tuple of names
 
+# One more example
+def add_numbers(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    print("Sum is : ", total)
+    
+add_numbers(10, 20)
+add_numbers(1, 2, 3, 4, 5)
 
 # ------------------------------------------------------------------------------------------------------------------------
 
-
+print("")
 ## Variable Length Keyword Arguments - **kwargs
 # Use **kwargs when you want to accept multiple keyword arguments.
 # Python stores them as a dictionary
@@ -111,7 +127,7 @@ def full_name(**name):
 full_name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
 # ------------------------------------------------------------------------------------------------------------------------
-
+print("")
 ## Return Statement - It is used to return the value of the expression back to the calling function.
 
 def average(*numbers):
