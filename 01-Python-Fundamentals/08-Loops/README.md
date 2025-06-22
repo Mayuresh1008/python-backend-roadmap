@@ -150,3 +150,19 @@ for i in range(5):
 ```
 
 > 🧠 Loops are essential for performing repetitive tasks in a clean and efficient way!
+
+---
+
+# 📌 SOME EXTRA AND IMPORTANT INFORMATION
+
+## 🔁 Emulating Do-While Loop in Python
+
+Python doesn’t have a built-in `do-while` loop, but we can emulate it using a `while True` loop and a `break` statement.
+
+### 🔹 Basic Syntax
+```python
+while True:
+    # code runs at least once
+    if not condition:
+        break
+```
