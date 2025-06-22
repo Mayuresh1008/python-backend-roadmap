@@ -65,8 +65,21 @@ averageOfNumbers(5, 6, 4)
 def names(*name):
     print("Hello, ", *name)
 
-print("James", "Buchanan", "Barnes") # printing a list of names
+print("James", "Buchanan", "Barnes") # printing a tuple of names
 
 
 # ------------------------------------------------------------------------------------------------------------------------
+
+# Another 
+## Variable Length Keyword Arguments - **kwargs
+# Use **kwargs when you want to accept multiple keyword arguments.
+# Python stores them as a dictionary
+
+def full_name(**name):
+    # print(type(name))
+    print("Hello", name["fname"], name["mname"], name["lname"])
+ 
+
+full_name(mname = "Buchanan", lname = "Barnes", fname = "James")
+
 
