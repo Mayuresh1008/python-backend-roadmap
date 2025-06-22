@@ -20,7 +20,7 @@ There are 4 types of functions in Python:
 def welcome():
     print("Welcome to the Python course!")
 
-welcome() # just shows the message no input needed
+welcome() 
 
 print("")
 
@@ -28,7 +28,7 @@ print("")
 def show_date():
     print("Today is Saturday.")
 
-show_date() # just shows message, can't reuse or store anything
+show_date() 
 
 print("")
 
@@ -66,3 +66,32 @@ def print_even_numbers(limit):
         print(i, end=" ")
 
 print_even_numbers(10)
+
+
+print("\n\n\n")
+
+## 3. Function with no parameters but with return
+
+# Example 1:
+def get_pi():
+    return 3.14159
+
+pi = get_pi()
+print("Value of pi:", pi)
+
+print("")
+
+# Example 2:
+def default_username():
+    return "guest_user_001"
+
+print("Auto-generated username:", default_username())
+
+print("")
+
+# Example 3:
+def lucky_number():
+    import random
+    return random.randint(1, 100)
+
+print("Your lucky number is:", lucky_number())
