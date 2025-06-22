@@ -95,3 +95,29 @@ def lucky_number():
     return random.randint(1, 100)
 
 print("Your lucky number is:", lucky_number())
+
+print("\n\n\n")
+
+## Function with Parameters and Return
+
+# Example 1:
+def add(a, b):
+    return a + b
+
+sum_result = add(10, 5)
+print("Sum:", sum_result)
+
+print("")
+
+# Example 2:
+def is_even(num):
+    return num % 2 == 0 # adding condition in return statement
+
+print("Is 7 even? ", is_even(7))
+print("Is 10 even? ", is_even(10))
+
+# Example 3:
+def find_area(length, width):
+    return length * width
+
+print("Area of rectangle:", find_area(5, 8))
