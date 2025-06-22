@@ -49,3 +49,15 @@ print(pow(2, 3))
 
 print("")
 
+## Data/Sequence Functions
+fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+    
+print("")
+
+## Debug/Utility Functions
+a = 10
+print(id(a))
+
+help(str)
