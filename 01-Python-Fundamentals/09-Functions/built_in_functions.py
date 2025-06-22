@@ -41,3 +41,11 @@ print(isinstance(x, float))
 
 print("")
 
+## Math Function
+
+print(abs(-9))
+print(round(3.14159, 2))
+print(pow(2, 3))
+
+print("")
+
