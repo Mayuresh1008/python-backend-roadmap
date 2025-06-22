@@ -1,5 +1,5 @@
 """ 
-This is a practice file of practicing user input in python,
+This is a practice file or simple project of practicing user input in python,
 In this file i am making a rock, paper and scissors game 
 and using the concepts like user input, random module in python and so on.
 """
