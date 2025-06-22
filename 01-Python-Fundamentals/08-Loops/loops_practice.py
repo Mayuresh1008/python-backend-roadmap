@@ -66,3 +66,18 @@ for x in range(0, 101, 5): # number increments by 5
 else:
     print("Glad that\'s over")
 """
+
+# Nested loops
+names = ["Dave", "Sara", "John"]
+actions = ["codes", "eats", "sleeps"]
+
+for name in names:
+    for action in actions:
+        print(name + " " + action + ".")
+
+print("")
+for action in actions:
+    for name in names:
+        print(name + " " + action + ".")
+    
+
