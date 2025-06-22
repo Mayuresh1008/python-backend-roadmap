@@ -22,11 +22,15 @@ def welcome():
 
 welcome() # just shows the message no input needed
 
+print("")
+
 # Example 2:
 def show_date():
     print("Today is Saturday.")
 
 show_date() # just shows message, can't reuse or store anything
+
+print("")
 
 # Example 3:
 def say_hello():
@@ -34,3 +38,31 @@ def say_hello():
         print("Hello!")
 
 say_hello()
+
+## 2. Function with Parameters and No Return 
+
+print("\n\n\n")
+
+# Example 1:
+def greet(name):
+    print(f"Hi, {name}! Have a great day!")
+
+greet("Mayuresh")
+
+print("")
+
+# Example 2:
+def print_table(n):
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n*i}")
+
+print_table(7)
+
+print('')
+
+# Example 3:
+def print_even_numbers(limit):
+    for i in range(2, limit+1, 2):
+        print(i, end=" ")
+
+print_even_numbers(10)
