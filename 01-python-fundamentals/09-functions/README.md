@@ -53,3 +53,22 @@ def average(a, b, c):
 
 average(5, 6, 7)
 ```
+
+## 🔣 Function Arguments and Return Types
+
+### 🔹 Positional Arguments
+```python
+def average(a, b, c):
+    print("The average is", (a + b + c)/3)
+
+average(5, 6, 7)
+```
+
+### 🔹 Default Arguments
+```python
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+greet()
+greet("Mayuresh")
+```
