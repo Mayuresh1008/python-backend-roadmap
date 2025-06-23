@@ -109,3 +109,14 @@ def show_profile(**details):
 
 show_profile(name="Mayuresh", age=21, city="Vadodara")
 ```
+
+---
+
+## 🏁 Return Statement
+```python
+def average(*numbers):
+    return sum(numbers) / len(numbers)
+
+avg = average(5, 3, 6, 2)
+print("Average of numbers:", avg)
+```
