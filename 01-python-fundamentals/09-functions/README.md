@@ -120,3 +120,42 @@ def average(*numbers):
 avg = average(5, 3, 6, 2)
 print("Average of numbers:", avg)
 ```
+
+---
+
+## 🧪 4 Types of Functions:
+
+### 1️⃣ No Parameters, No Return
+```python
+def say_hello():
+    print("Hello!")
+
+say_hello()
+```
+
+### 2️⃣ With Parameters, No Return
+```python
+def greet(name):
+    print(f"Hi, {name}!")
+
+greet("Mayuresh")
+```
+
+### 3️⃣ No Parameters, With Return
+```python
+def get_pi():
+    return 3.14159
+
+print(get_pi())
+```
+
+### 4️⃣ With Parameters and Return
+```python
+def add(a, b):
+    return a + b
+
+print("Sum:", add(10, 5))
+```
+
+---
+
