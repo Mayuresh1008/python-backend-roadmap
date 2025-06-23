@@ -159,3 +159,55 @@ print("Sum:", add(10, 5))
 
 ---
 
+## 🧰 Built-in Functions in Python
+These come preloaded with Python:
+
+### 🔹 Input/Output Functions
+```python
+print("Hello")
+name = input("Enter your name: ")
+```
+
+### 🔹 Type Conversion
+```python
+print(int("10") + 5)
+```
+
+### 🔹 Type Checking
+```python
+x = 5.5
+print(type(x))
+print(isinstance(x, float))
+```
+
+### 🔹 Math Functions
+```python
+print(abs(-9))
+print(round(3.14159, 2))
+print(pow(2, 3))
+```
+
+### 🔹 Data Handling Functions
+```python
+fruits = ["apple", "banana"]
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+```
+
+### 🔹 Debug/Utility Functions
+```python
+print(id(10))
+# help(str)
+```
+
+---
+
+## 🧵 Example: All Argument Types Together
+```python
+def student_info(name, age=18, *hobbies, **details):
+    print(name, age, hobbies, details)
+
+student_info("Mayuresh", 20, "cricket", city="Vadodara", grade="A")
+```
+
+> 🚀 Functions are the foundation of reusable and scalable code in Python!
