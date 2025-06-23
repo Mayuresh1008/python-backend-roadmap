@@ -100,3 +100,12 @@ def add_numbers(*numbers):
 
 add_numbers(1, 2, 3, 4, 5)
 ```
+
+### 🔹 Variable Length Keyword Arguments (**kwargs)
+```python
+def show_profile(**details):
+    for key, value in details.items():
+        print(f"{key}: {value}")
+
+show_profile(name="Mayuresh", age=21, city="Vadodara")
+```
