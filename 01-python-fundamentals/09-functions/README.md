@@ -80,3 +80,11 @@ def fullname(fname, mname, lname):
 
 fullname(mname="Umesh", lname="Patil", fname="Mayuresh")
 ```
+
+### 🔹 Required Arguments
+```python
+def average(a, b, c):
+    print("The average is", (a + b + c)/3)
+
+average(5, 6, 1)
+```
