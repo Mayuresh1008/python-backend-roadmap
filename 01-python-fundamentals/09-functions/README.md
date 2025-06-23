@@ -72,3 +72,11 @@ def greet(name="Guest"):
 greet()
 greet("Mayuresh")
 ```
+
+### 🔹 Keyword Arguments
+```python
+def fullname(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+fullname(mname="Umesh", lname="Patil", fname="Mayuresh")
+```
