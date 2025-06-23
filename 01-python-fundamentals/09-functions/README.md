@@ -88,3 +88,15 @@ def average(a, b, c):
 
 average(5, 6, 1)
 ```
+
+
+### 🔹 Variable Length Positional Arguments (*args)
+```python
+def add_numbers(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    print("Sum is:", total)
+
+add_numbers(1, 2, 3, 4, 5)
+```
