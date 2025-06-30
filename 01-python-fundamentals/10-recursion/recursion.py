@@ -23,6 +23,6 @@ def factorial(num):
         return num * factorial(num - 1)
 
 
-print(factorial(3))
-print(factorial(4))
-print(factorial(5))
+factorial(3)
+factorial(4)
+factorial(5)
