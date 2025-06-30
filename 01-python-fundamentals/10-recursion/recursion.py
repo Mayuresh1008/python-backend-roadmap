@@ -13,6 +13,7 @@ def recursive_function(): # Base case
 
 # factorial(7) - 7*6*5*4*3*2*1
 # factorial(n) = n * factorial(n-1)
+
 # Calculating factorial using recursion function
 
 
@@ -26,3 +27,14 @@ def factorial(num):
 factorial(3)
 factorial(4)
 factorial(5)
+
+# return value after every iterations of recursion function
+# 5 * factorial(5 - 1)
+# 5 * factorial(4)
+# 5 * 4 * factorial(4 - 1)
+# 5 * 4 * factorial(3)
+# 5 * 4 * 3 * factorial(3 - 1)
+# 5 * 4 * 3 * factorial(2)
+# 5 * 4 * 3 * 2 * factorial(2 - 1)
+# 5 * 4 * 3 * 2 * factorial(1)
+# 5 * 4 * 3 * 2 * 1 = 120
