@@ -40,7 +40,8 @@ factorial(5)
 # 5 * 4 * 3 * 2 * 1 = 120
 
 
-## Calculating Fibonacci series
+""" 
+## Printing the fibonacci series using while loop
 # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . .
 # f0 = 0
 # f1 = 1
@@ -48,13 +49,46 @@ factorial(5)
 # fn = f(n - 1) + f(n - 2)
 
 
-def fibonacci(num):
-    if num == 0:
+def while_fibonacci_series(n):
+    num1 = 0
+    num2 = 1
+    fibo = []
+    while n > 0:
+        fibo.append(num1)
+        num3 = num2 + num1
+        num1 = num2
+        num2 = num3
+        n -= 1
+
+    return fibo
+
+
+num = int(input("Enter the number of character in series: "))
+print("Fibonacci series: ", while_fibonacci_series(num))
+print("calculation : ", fibonacci(num))
+"""
+
+## Calculating Fibonacci series
+
+
+def fibonacci(n):
+    if n == 0:
         return 0
-    elif num == 1:
+    elif n == 1:
         return 1
     else:
-        return fibonacci(num - 1) + fibonacci(num - 2)
+        return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-print("Calculation :", fibonacci(6))
+## Printing the fibonacci series using recursive functions
+def print_fibonacci_series(index, n):
+    if index < n:
+        print(fibonacci(index), end=" ")
+        print_fibonacci_series(index + 1, n)
+
+
+terms = int(input("Enter the number of terms: "))
+
+print("Fibonacci series : ")
+print_fibonacci_series(0, terms)
+# print("\nCalculation :", fibonacci(terms))
