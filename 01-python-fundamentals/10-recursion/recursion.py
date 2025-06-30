@@ -14,7 +14,7 @@ def recursive_function(): # Base case
 # factorial(7) - 7*6*5*4*3*2*1
 # factorial(n) = n * factorial(n-1)
 
-# Calculating factorial using recursion function
+## Calculating factorial using recursion function
 
 
 def factorial(num):
@@ -38,3 +38,23 @@ factorial(5)
 # 5 * 4 * 3 * 2 * factorial(2 - 1)
 # 5 * 4 * 3 * 2 * factorial(1)
 # 5 * 4 * 3 * 2 * 1 = 120
+
+
+## Calculating Fibonacci series
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . .
+# f0 = 0
+# f1 = 1
+# f2 = f1 + f0
+# fn = f(n - 1) + f(n - 2)
+
+
+def fibonacci(num):
+    if num == 0:
+        return 0
+    elif num == 1:
+        return 1
+    else:
+        return fibonacci(num - 1) + fibonacci(num - 2)
+
+
+print("Calculation :", fibonacci(6))
