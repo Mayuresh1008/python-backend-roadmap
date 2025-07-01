@@ -17,3 +17,17 @@ def recursive_function():
 ```
 
 ---
+
+## 📌 Factorial Example (Recursive)
+
+```python
+def factorial(num):
+    if num == 0 or num == 1:
+        return 1
+    else:
+        return num * factorial(num - 1)
+
+print(factorial(3))  # 6
+print(factorial(4))  # 24
+print(factorial(5))  # 120
+```
