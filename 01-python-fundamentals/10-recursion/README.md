@@ -97,3 +97,26 @@ countdown(10)
 ```
 
 ---
+
+## 📌 Fibonacci using While Loop (for comparison)
+```python
+def while_fibonacci_series(n):
+    num1 = 0
+    num2 = 1
+    fibo = []
+    while n > 0:
+        fibo.append(num1)
+        num3 = num2 + num1
+        num1 = num2
+        num2 = num3
+        n -= 1
+    return fibo
+
+print("Fibonacci series:", while_fibonacci_series(num))
+```
+
+---
+
+> 🧠 **Note:** Always define a base case in a recursive function to prevent infinite recursion!
+
+> 🛠️ Recursion is elegant but can be slower and memory intensive compared to loops. Use with care!
