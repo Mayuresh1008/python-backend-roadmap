@@ -39,8 +39,6 @@ factorial(5)
 # 5 * 4 * 3 * 2 * factorial(1)
 # 5 * 4 * 3 * 2 * 1 = 120
 
-
-""" 
 ## Printing the fibonacci series using while loop
 # 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . .
 # f0 = 0
@@ -63,11 +61,6 @@ def while_fibonacci_series(n):
     return fibo
 
 
-num = int(input("Enter the number of character in series: "))
-print("Fibonacci series: ", while_fibonacci_series(num))
-print("calculation : ", fibonacci(num))
-"""
-
 ## Calculating Fibonacci series
 
 
@@ -78,6 +71,11 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+num = int(input("Enter the number of character in series: "))
+print("Fibonacci series: ", while_fibonacci_series(num))
+print("calculation : ", fibonacci(num))
 
 
 ## Printing the fibonacci series using recursive functions
@@ -92,3 +90,15 @@ terms = int(input("Enter the number of terms: "))
 print("Fibonacci series : ")
 print_fibonacci_series(0, terms)
 # print("\nCalculation :", fibonacci(terms))
+
+
+# Another Example : Count Down Using Recursion
+def countdown(n):
+    if n == 0:
+        print("Blast off!!!")
+    else:
+        print(n)
+        countdown(n - 1)
+
+
+countdown(10)
