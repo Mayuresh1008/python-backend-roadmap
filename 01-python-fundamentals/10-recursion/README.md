@@ -59,3 +59,26 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 ```
+
+### 🧪 Usage:
+```python
+num = int(input("Enter the number of character in series: "))
+print("calculation :", fibonacci(num))
+```
+
+---
+
+## 📌 Print Fibonacci Series using Recursion
+
+```python
+def print_fibonacci_series(index, n):
+    if index < n:
+        print(fibonacci(index), end=" ")
+        print_fibonacci_series(index + 1, n)
+
+terms = int(input("Enter the number of terms: "))
+print("Fibonacci series : ")
+print_fibonacci_series(0, terms)
+```
+
+---
