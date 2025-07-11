@@ -19,3 +19,12 @@ print(math.pow(2, 3))
 print(math.floor(4.9))
 print(math.ceil(4.1))
 print(math.pi)
+
+# random Module
+import random
+
+slist = [1, 2, 3, 6, 7, 8, 0]
+print(random.randint(1, 10))
+print(random.choice([1, 2, 3]))
+random.shuffle(slist)
+print("Shuffle list : ", slist)
