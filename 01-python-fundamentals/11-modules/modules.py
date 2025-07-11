@@ -37,3 +37,20 @@ import time
 print(time.time())
 print(time.sleep(2))
 print(time.ctime())
+
+# os module
+# sys module
+
+print("")
+
+## Custom Module
+import calculator
+
+a = 5
+b = 2
+print("A :", a)
+print("B :", b)
+print("Addition :", calculator.add(a, b))
+print("Subtraction :", calculator.subtract(a, b))
+print("Multiplication :", calculator.multiply(a, b))
+print("Division :", calculator.divide(a, b))
