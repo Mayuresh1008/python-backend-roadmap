@@ -53,3 +53,21 @@ print(time.ctime())
 
 ---
 
+## 🧑‍💻 Custom Modules
+
+You can create your own module by saving Python code in a `.py` file. Example: `calculator.py`
+
+### Example content of `calculator.py`:
+```python
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    return a / b
+```
