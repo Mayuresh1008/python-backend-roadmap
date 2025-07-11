@@ -88,3 +88,35 @@ print("Division:", calculator.divide(a, b))
 ```
 
 ---
+
+## 🌐 External Modules
+
+External modules are Python packages created by the community. Install them with `pip`.
+
+### Example: Installing `numpy`
+```bash
+pip install numpy
+```
+
+### Example usage:
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+print(np.mean(arr))
+```
+
+Other popular external modules:
+- `requests` → Send HTTP requests.
+- `pandas` → Data analysis.
+- `matplotlib` → Data visualization.
+
+---
+
+## 🔑 Key Takeaways
+
+- ✔️ **Built-in modules:** Ready to use.
+- ✔️ **Custom modules:** Create your own reusable Python code.
+- ✔️ **External modules:** Install with `pip` for extended functionality.
+
+> 📘 **Write clean and reusable code using modules to keep your Python projects organized and powerful!**
