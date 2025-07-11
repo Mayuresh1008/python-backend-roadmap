@@ -39,3 +39,17 @@ print(random.choice([1, 2, 3]))
 random.shuffle(slist)
 print("Shuffled list:", slist)
 ```
+
+### 🔹 Example: `time` Module
+```python
+import time
+
+print(time.time())
+time.sleep(2)
+print(time.ctime())
+```
+
+> Some more modules : os, sys and so on
+
+---
+
