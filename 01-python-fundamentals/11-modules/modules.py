@@ -20,6 +20,7 @@ print(math.floor(4.9))
 print(math.ceil(4.1))
 print(math.pi)
 
+print("")
 # random Module
 import random
 
@@ -28,3 +29,11 @@ print(random.randint(1, 10))
 print(random.choice([1, 2, 3]))
 random.shuffle(slist)
 print("Shuffle list : ", slist)
+
+print("")
+# time Module
+import time
+
+print(time.time())
+print(time.sleep(2))
+print(time.ctime())
