@@ -71,3 +71,20 @@ def multiply(a, b):
 def divide(a, b):
     return a / b
 ```
+
+### Example usage in another file:
+```python
+import calculator
+
+a = 5
+b = 2
+
+print("A:", a)
+print("B:", b)
+print("Addition:", calculator.add(a, b))
+print("Subtraction:", calculator.subtract(a, b))
+print("Multiplication:", calculator.multiply(a, b))
+print("Division:", calculator.divide(a, b))
+```
+
+---
