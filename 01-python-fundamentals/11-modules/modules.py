@@ -44,6 +44,7 @@ print(time.ctime())
 print("")
 
 ## Custom Module
+# calling functions from calculator file
 import calculator
 
 a = 5
@@ -54,3 +55,6 @@ print("Addition :", calculator.add(a, b))
 print("Subtraction :", calculator.subtract(a, b))
 print("Multiplication :", calculator.multiply(a, b))
 print("Division :", calculator.divide(a, b))
+
+## External Module
+# A library created by someone else, not included in Python by default and install it using pip before you can use it.
