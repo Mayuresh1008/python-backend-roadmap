@@ -4,7 +4,7 @@ This section covers the foundational concepts of Python programming. Each topic 
 
 ---
 
-## ✅ Topics Covered:
+## ✅ Topics Covered
 
 - Introduction to Python
 - Setting Up Python Environment
