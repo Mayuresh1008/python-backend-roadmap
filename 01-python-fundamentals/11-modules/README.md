@@ -15,3 +15,16 @@ It helps break your code into smaller, reusable parts to improve readability, ma
 | **External Modules** | Installed via `pip`, developed by third parties | `numpy`, `requests`, `pandas` |
 
 ---
+
+## ✅ Built-in Modules
+
+### 🔹 Example: `math` Module
+```python
+import math
+
+print(math.sqrt(16))
+print(math.pow(2, 3))
+print(math.floor(4.9))
+print(math.ceil(4.1))
+print(math.pi)
+```
