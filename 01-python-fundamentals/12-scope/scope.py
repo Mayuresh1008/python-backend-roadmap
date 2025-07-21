@@ -8,3 +8,15 @@ Closures in Python:
 A closure is a function that remembers variables from its enclosing scope, even after the outer function has finished executing.
 Closures happen when a nested (inner) function refers to a variable from the outer (enclosing) function, and that outer function has already completed.
 """
+
+# scope in python
+username = "alex"
+
+
+def func():
+    # username = "drake"
+    print(username)
+
+
+print(username)
+func()
