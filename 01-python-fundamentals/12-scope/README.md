@@ -78,4 +78,18 @@ myResult = f1()
 myResult()  # Output: 88
 ```
 
+### ✅ Practical Closure Example:
+
+```python
+def code(num):
+    def actual(x):
+        return x**num
+    return actual
+
+f = code(2)
+g = code(3)
+
+print(f(3))  # 9
+print(g(3))  # 27
+```
 
