@@ -98,3 +98,15 @@ g = code(3)
 
 print(f(3))
 print(g(3))
+
+
+## Closure Example
+def outer_function(msg):
+    def inner_function():
+        print("Message:", msg)
+
+    return inner_function
+
+
+say_hello = outer_function("Hello")
+say_hello()
