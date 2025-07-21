@@ -57,3 +57,10 @@ print(count)  # Output: 1
 
 ---
 
+## 🔐 Closures in Python
+
+A **closure** is a function that remembers variables from its enclosing scope, even after the outer function has finished executing.
+
+Closures occur when a nested function refers to a value defined in its outer function.
+
+
