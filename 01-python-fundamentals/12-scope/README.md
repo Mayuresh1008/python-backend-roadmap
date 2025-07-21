@@ -63,4 +63,19 @@ A **closure** is a function that remembers variables from its enclosing scope, e
 
 Closures occur when a nested function refers to a value defined in its outer function.
 
+### ✅ Simple Closure Example:
+
+```python
+def f1():
+    x = 88
+
+    def f2():
+        print(x)
+
+    return f2
+
+myResult = f1()
+myResult()  # Output: 88
+```
+
 
