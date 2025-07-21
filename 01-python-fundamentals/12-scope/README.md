@@ -93,3 +93,39 @@ print(f(3))  # 9
 print(g(3))  # 27
 ```
 
+### ✅ Outer Function Closure:
+
+```python
+def outer_function(msg):
+    def inner_function():
+        print("Message:", msg)
+    return inner_function
+
+say_hello = outer_function("Hello")
+say_hello()  # Output: Message: Hello
+```
+
+### ✅ Real-World Closure Use:
+
+```python
+def multiplier(n):
+    def multiply(x):
+        return x * n
+    return multiply
+
+times3 = multiplier(3)
+times5 = multiplier(5)
+
+print(times3(10))  # 30
+print(times5(10))  # 50
+```
+
+---
+
+## ✅ Summary
+
+| Concept     | Description                                                               |
+| ----------- | ------------------------------------------------------------------------- |
+| **Scope**   | Determines where a variable is accessible (LEGB rule)                     |
+| **Closure** | Function remembers variables from outer scope even after outer has exited |
+
