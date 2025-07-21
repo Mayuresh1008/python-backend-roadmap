@@ -110,3 +110,18 @@ def outer_function(msg):
 
 say_hello = outer_function("Hello")
 say_hello()
+
+
+# Real-World Closure Use:
+def multiplier(n):
+    def multiply(x):
+        return x * n
+
+    return multiply
+
+
+times3 = multiplier(3)
+times5 = multiplier(5)
+
+print(times3(10))
+print(times5(10))
