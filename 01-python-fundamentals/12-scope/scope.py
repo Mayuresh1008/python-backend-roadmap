@@ -84,3 +84,17 @@ def f1():
 
 myResult = f1()
 myResult()
+
+
+def code(num):
+    def actual(x):
+        return x**num
+
+    return actual
+
+
+f = code(2)
+g = code(3)
+
+print(f(3))
+print(g(3))
