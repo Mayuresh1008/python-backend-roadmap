@@ -28,6 +28,7 @@ Welcome to the **Python Fundamentals** section of the Fullstack Python Roadmap. 
 
 - ✅ Topic-wise explanations
 - 🧠 Practice code
+- 💡 Mini projects (where applicable)
 
 Keep building. Keep shipping. Keep learning. 💻🐍
 
