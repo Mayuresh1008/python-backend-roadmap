@@ -16,17 +16,7 @@ This repo is a complete learning journey — from Python basics to advanced full
 
 # 📚 Python Roadmap
 
-## 🔰 Section 1: [Python Fundamentals](./01_python_fundamentals/)
 
-| Sr | Topic                                        | Folder Link                                                                                           |
-|----|----------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 01 | Print Statement, Comments & Escape Sequences | [01-Print-Statement-And-Comments](./01-Python-Fundamentals/01-Print%20statement%20and%20Comments/)    |
-| 02 | Variables & Data Types                       | [02-Variables-And-Datatypes](./01-Python-Fundamentals/02-Variables-And-Datatypes/)                    |
-| 03 | Type-Conversion and Casting in Python        | [03-Type-Casting](./01-Python-Fundamentals/03-Type-Casting/)                                          |
-| 04 | User Input in Python                         | [04-User-Input](./01-Python-Fundamentals/04-UserInput/)                                               |
-| 05 | Strings in Python                            | [05-Strings](./01-Python-Fundamentals/05-Strings/)                                                    |
-
----
 
 ## 💼 About Me
 
