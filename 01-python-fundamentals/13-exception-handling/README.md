@@ -14,3 +14,23 @@ try:
 ```
 
 ---
+
+
+## ❌ `except`
+
+Block that **catches and handles the error** from the `try`.
+
+```python
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+```
+
+You can also use:
+
+```python
+except Exception as e:
+    print("Error occurred:", e)
+```
+
+---
+
