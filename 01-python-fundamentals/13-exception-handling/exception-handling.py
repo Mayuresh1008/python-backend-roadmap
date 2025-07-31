@@ -58,6 +58,8 @@ else:
 finally:
     print("Program finished!!")
 
+print("")
+
 
 # Example 2 : Age Validator using raise and built-in error
 def check_age(age):
@@ -71,3 +73,29 @@ try:
     check_age(user_age)
 except ValueError as e:
     print("Caught error", e)
+
+
+print("")
+
+
+# Example 3 : Custom Exception for Negative Number
+class NegativeNumberError(Exception):
+    pass
+
+
+def get_positive_numbers():
+    num = int(input("Enter a positive number:"))
+    if num < 0:
+        raise NegativeNumberError("You entered a negative number.")
+    return num
+
+
+try:
+    number = get_positive_numbers()
+    print("Your number is:", number)
+except NegativeNumberError as e:
+    print("Caught Error:", e)
+except ValueError:
+    print("Enter valid integers.")
+
+print("")
