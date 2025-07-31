@@ -99,3 +99,13 @@ except ValueError:
     print("Enter valid integers.")
 
 print("")
+
+# Example 4: List index finder
+try:
+    my_list = [10, 20, 30]
+    idx = int(input("Enter index (0-2):"))
+    print("Element:", my_list[idx])
+except IndexError:
+    print("That index is out of range.")
+except Exception as e:
+    print("Some other error occured:", e)
