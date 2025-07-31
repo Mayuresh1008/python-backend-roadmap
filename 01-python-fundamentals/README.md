@@ -21,6 +21,7 @@ Welcome to the **Python Fundamentals** section of the Fullstack Python Roadmap. 
 | 10   | [Recursion](./10-recursion/)                                           | 
 | 11   | [Modules](./11-modules/)                                               | 
 | 12   | [Scope & Closures](./12-scope/)                                        | 
+| 13   | [Exception Handling](./13-exception-handling/)                                        | 
 
 ---
 
