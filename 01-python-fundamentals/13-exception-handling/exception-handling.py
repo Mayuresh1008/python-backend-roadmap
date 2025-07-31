@@ -79,3 +79,28 @@ finally:
     except:
         pass
     print("File closed.")
+
+print("")
+
+
+# Example 6: Student Marks Checker
+class InvalidInputError(Exception):
+    pass
+
+
+def check_marks(num):
+    if num < 0 or num > 100:
+        raise InvalidInputError("The value is not in the range 0-100.")
+    print("Valid mark!!")
+
+
+try:
+    marks = int(input("Enter the mark between (0-100): "))
+    check_marks(marks)
+    print("Your marks:", marks)
+except InvalidInputError as e:
+    print(e)
+except ValueError:
+    print("The input is not an integer.")
+finally:
+    print("Validation complete.")
