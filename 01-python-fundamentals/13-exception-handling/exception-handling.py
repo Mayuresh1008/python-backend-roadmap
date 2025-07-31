@@ -72,7 +72,7 @@ try:
     content = file.read()
     print("File Content:\n", content)
 except FileNotFoundError:
-    print("File not found")
+    print("File not found.")
 finally:
     try:
         file.close()
