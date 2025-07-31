@@ -8,6 +8,8 @@ You can specify error types (like ZeroDivisionError, ValueError) or catch all.
 else : Runs only if no error occurs in the try block. Often used to execute "safe" code.
 
 finally : Runs no matter what - whether an error happened or not. Good for cleanup actions like closing files, ending connections.
+
+raise : You can raise to manually trigger an error. Useful when you want to enforce rules in your code.
 """
 
 try:
@@ -18,3 +20,4 @@ else:
     print("Everything went fine.")
 finally:
     print("This block always runs.")
+# raise ValueError("incorrect value")
