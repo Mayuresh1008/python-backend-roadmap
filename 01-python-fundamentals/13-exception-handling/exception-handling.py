@@ -42,3 +42,18 @@ TypeError --> Invalid operation between mismatched types
 IndexError --> Index out of range for lists
 KeyError --> Missing key in dictionary
 """
+
+# Example 1 : Division with Multiple Exceptions
+
+try:
+    a = int(input("Enter numerator: "))
+    b = int(input("Enter denominator: "))
+    result = a / b
+except ZeroDivisionError:
+    print("ERROR: Cannot divide by zero")
+except ValueError:
+    print("ERROR: Please enter valid integers.")
+else:
+    print("Division result:", result)
+finally:
+    print("Program finished!!")
