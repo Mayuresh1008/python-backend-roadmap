@@ -104,3 +104,40 @@ except ValueError:
     print("The input is not an integer.")
 finally:
     print("Validation complete.")
+
+print("")
+
+
+# Example 7: ATM Withdrawal Simulator
+class InsufficientFundsError(Exception):
+    pass
+
+
+class NegativeNumberError(Exception):
+    pass
+
+
+def check_amount(amount, balance):
+    if amount < 0:
+        raise NegativeNumberError("Amount can't be a negative number.")
+    elif amount > balance:
+        raise InsufficientFundsError("Insufficient Balance")
+    else:
+        new_balance = balance - amount
+        print("Withdrawal Successful. Remaining balance:$", new_balance)
+        return new_balance
+
+
+balance = 5000
+
+try:
+    amount = int(input("Enter withdrawal amount:"))
+    check_amount(amount, balance)
+except ValueError:
+    print("the input is not valid.")
+except NegativeNumberError as e:
+    print(e)
+except InsufficientFundsError as e:
+    print(e)
+finally:
+    print("Thank you for using the ATM.")
