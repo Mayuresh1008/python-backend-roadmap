@@ -34,4 +34,11 @@ except Exception as e:
 
 class NegativeNumberError(Exception):
     pass
+
+> ZeroDivisionError, ValueError, etc. : Built-in error classes in Python that represent specific problems:
+ZeroDivisionError --> Division by zero
+ValueError --> Invalid type conversion (e.g., int("abc"))
+TypeError --> Invalid operation between mismatched types
+IndexError --> Index out of range for lists
+KeyError --> Missing key in dictionary
 """
