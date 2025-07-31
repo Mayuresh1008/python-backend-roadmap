@@ -52,3 +52,63 @@ for fruit in fruits:
 # List Comprehension (Mini Loop)
 squares = [x * x for x in range(1, 6)]
 print(squares)
+
+print("\n\n")
+## TASK 1
+numbers = [5, 3, 8, 6, 7, 2]
+print(numbers)
+
+# sorting the list in ascending and descending order
+# ascending order
+numbers.sort()
+print(numbers)
+# descending order
+numbers.sort(reverse=True)
+print(numbers)
+
+# appending 10
+numbers.append(10)
+print(numbers)
+# removing 3
+numbers.remove(3)
+print(numbers)
+
+# printing squares of each number using list comprehension
+squares = [x * x for x in numbers]
+print(squares)
+
+print("\n\n")
+## TASK 2
+friends = ["John", "Alice", "Angela", "Dave", "Max"]
+print(friends)
+
+# replacing a name
+friends[2] = "Husn"
+print(friends)
+
+# add name at the start and at the end
+friends.append("Angela")
+print(friends)
+
+friends.insert(0, "Lucky")
+print(friends)
+
+# printing all names using a loop
+for name in friends:
+    print(name)
+
+## TASK 3
+
+# printing length of a list
+print(len(friends))
+
+# counting the repeated item
+# adding new items in a list to clarify more
+numbers.append(2)
+numbers.insert(1, 2)
+print(numbers)
+count = numbers.count(2)
+print(f"there are {count} (2's) in the list.")
+
+# printing index of a particular name
+print(friends.index("Husn"))
