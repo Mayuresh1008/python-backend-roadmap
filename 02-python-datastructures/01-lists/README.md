@@ -71,3 +71,48 @@ print(squares)
 
 ---
 
+## ✅ Task 1: Numbers List
+
+```python
+numbers = [5, 3, 8, 6, 7, 2]
+numbers.sort()
+print(numbers)
+numbers.sort(reverse=True)
+print(numbers)
+numbers.append(10)
+numbers.remove(3)
+print(numbers)
+squares = [x * x for x in numbers]
+print(squares)
+```
+
+---
+
+## ✅ Task 2: Friends List
+
+```python
+friends = ["John", "Alice", "Angela", "Dave", "Max"]
+friends[2] = "Husn"
+friends.append("Angela")
+friends.insert(0, "Lucky")
+
+for name in friends:
+    print(name)
+```
+
+---
+
+## ✅ Task 3: Length, Count, Index
+
+```python
+print(len(friends))
+numbers.append(2)
+numbers.insert(1, 2)
+count = numbers.count(2)
+print(f"there are {count} (2's) in the list.")
+print(friends.index("Husn"))
+```
+
+---
+
+> 🚀 Tip: Lists are powerful tools for storing, processing, and iterating through data in Python. Mastering them sets the foundation for effective coding.
