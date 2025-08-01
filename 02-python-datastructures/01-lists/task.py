@@ -52,3 +52,24 @@ print(flattend)
 
 
 print("")
+
+## TASK 4: Split list into Chunks
+the_list = [1, 2, 3, 4, 5, 6, 7, 8]
+chunk_size = 3
+
+chucked_list = []
+
+current_chunk = []
+
+for item in the_list:
+    current_chunk.append(item)
+
+    if len(current_chunk) == chunk_size:
+        chucked_list.append(current_chunk)
+        current_chunk = []
+
+# Add remaining items if any
+if current_chunk:
+    chucked_list.append(current_chunk)
+
+print(chucked_list)
