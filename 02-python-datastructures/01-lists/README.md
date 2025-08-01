@@ -37,3 +37,19 @@ print(fruits)
 
 ---
 
+## 🛠️ Common List Methods
+
+```python
+fruits.append("orange")      # Add to end
+fruits.insert(1, "grapes")   # Insert at index 1
+fruits.remove("cherry")      # Remove by value
+last = fruits.pop()          # Remove last item
+count = fruits.count("apple")
+length = len(fruits)
+
+fruits.sort(reverse=True)    # Sort descending
+fruits.reverse()             # Reverse order
+```
+
+---
+
