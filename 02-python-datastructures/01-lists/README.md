@@ -53,3 +53,12 @@ fruits.reverse()             # Reverse order
 
 ---
 
+## 🔁 Looping Through a List
+
+```python
+for fruit in fruits:
+    print(fruit)
+```
+
+---
+
