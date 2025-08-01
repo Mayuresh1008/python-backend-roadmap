@@ -18,3 +18,13 @@ print(mixed)
 
 ---
 
+## 🔍 Indexing & Slicing
+
+```python
+print(fruits[0])      # First element
+print(fruits[-1])     # Last element
+print(fruits[1:])     # From index 1 to end
+```
+
+---
+
