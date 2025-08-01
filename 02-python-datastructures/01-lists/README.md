@@ -28,3 +28,12 @@ print(fruits[1:])     # From index 1 to end
 
 ---
 
+## ✏️ Modifying Lists
+
+```python
+fruits[1] = "mango"    # Replaces "banana" with "mango"
+print(fruits)
+```
+
+---
+
