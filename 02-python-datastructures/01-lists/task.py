@@ -73,3 +73,16 @@ if current_chunk:
     chucked_list.append(current_chunk)
 
 print(chucked_list)
+
+print("")
+## TASK 5: Frequency Counter
+numbers = [1, 2, 2, 3, 3, 3]
+frequency = {}
+
+for num in numbers:
+    if num in frequency:
+        frequency[num] += 1
+    else:
+        frequency[num] = 1
+
+print(frequency)
