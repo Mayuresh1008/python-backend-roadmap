@@ -10,7 +10,6 @@ This repo is a complete learning journey — from Python basics to advanced full
 ✅ Beginner-friendly topics with clean explanations  
 ✅ Code examples for each topic  
 ✅ Real-world practice projects linked where relevant  
-✅ My course learning (Angela Yu, 100 Projects) connected to each concept
 
 ---
 
