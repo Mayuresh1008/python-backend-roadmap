@@ -19,7 +19,7 @@ This repo is a complete learning journey — from Python basics to advanced full
 | Phase | Main Topics Covered |
 |-------|---------------------|
 | ✅ Phase 1 | Python Fundamentals |
-| ✅ Phase 2 | Python Data Structures |
+| ➡️ Phase 2 | Python Data Structures |
 | 🔄 Phase 3 | Intermediate Python |
 | 🔄 Phase 4 | Object-Oriented Programming |
 | 🔄 Phase 5 | Advanced Python Concepts |
