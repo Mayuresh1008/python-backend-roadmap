@@ -15,23 +15,20 @@ A simple Python game where the computer picks a random number, and you have to g
 ---
 
 ## 📂 Project Structure
-'''yaml
-
+```
 number\_guessing\_game/
 │
 ├── number\_guessing\_game.py   # Main Python script
 └── README.md                 # Project documentation
-'''
-
----
+```
 
 ## ▶️ How to Run the Game
 1. Make sure Python is installed on your system.
 2. Clone or download this project.
 3. Open a terminal in the project folder.
 4. Run the script:
-   ```bash
-   python number_guessing_game.py
+```bash
+    python number_guessing_game.py
 ```
 
 ---
