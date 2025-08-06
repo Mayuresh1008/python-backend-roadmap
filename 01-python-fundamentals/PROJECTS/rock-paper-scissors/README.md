@@ -21,7 +21,7 @@ A simple Python console-based game where you play **Rock-Paper-Scissors** agains
 ````
 rock\_paper\_scissors/
 │
-├── rock\_paper\_scissors.py   # Main Python script
+├── rps.py                   # Main Python script
 └── README.md                # Project documentation
 
 ````
@@ -32,11 +32,10 @@ rock\_paper\_scissors/
 2. Clone or download this project.
 3. Open a terminal in the project folder.
 4. Run the script:
-   ```
+```
    python rock_paper_scissors.py
 ```
 
----
 
 ## 🧠 How the Game Works
 
