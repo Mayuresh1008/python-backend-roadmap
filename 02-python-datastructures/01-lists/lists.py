@@ -21,3 +21,14 @@ print(fruits[1:3])
 print(fruits[:2])
 print(fruits[::2])
 print(nums[::3])
+
+# Adding and Removing Elements
+fruits = ["apple", "banana"]
+
+# Add
+fruits.append("mango")
+print(fruits)
+fruits.insert(1, "grape")
+print(fruits)
+fruits.extend(["orange", "kiwi"])
+print(fruits)
