@@ -28,3 +28,16 @@ t = ("apple", "banana", "orange")
 print(t[0])
 print(t[1])
 print(t[-1])
+
+# Tuple Unpacking
+record = ("Mayuresh", "active", 42)
+
+name, status, count = record
+print(name)
+print(status)
+print(count)
+
+# Extended unpacking
+nums = (1, 2, 3, 4, 5)
+first, *middle, last = nums
+print(first, middle, last)
