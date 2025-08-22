@@ -62,3 +62,14 @@ numbers.reverse()
 print(numbers.count(3))
 nums = numbers.copy()
 print(nums)
+
+# Shallow vs Deep Copy
+import copy
+
+a = [[1, 2], [3, 4]]
+b = a.copy()  # Shallow copy
+c = copy.deepcopy(a)
+
+a[0][0] = 99
+print(b)
+print(c)
