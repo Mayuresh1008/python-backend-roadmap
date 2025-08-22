@@ -45,3 +45,12 @@ print(fruits)
 numbers = [10, 20, 30, 40]
 print(20 in numbers)
 print(numbers.index(30))
+
+# Iterating lists
+fruits = ["apple", "banana", "mango"]
+for fruit in fruits:
+    print(fruit)
+
+# List Comprehension
+squares = [x * x for x in range(5)]
+print(squares)
