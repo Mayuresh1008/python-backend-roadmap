@@ -40,3 +40,8 @@ print(fruits.pop())
 print(fruits)
 del fruits[0]
 print(fruits)
+
+# Searching in lists
+numbers = [10, 20, 30, 40]
+print(20 in numbers)
+print(numbers.index(30))
