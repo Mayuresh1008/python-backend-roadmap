@@ -41,3 +41,13 @@ print(count)
 nums = (1, 2, 3, 4, 5)
 first, *middle, last = nums
 print(first, middle, last)
+
+# Immutability
+t = (1, 2, 3)
+# t[0] = 10 # TypeError
+
+# But if there is a list within the tuple then
+t = ([1, 2], 99)
+print(t)
+t[0].append(3)
+print(t)
