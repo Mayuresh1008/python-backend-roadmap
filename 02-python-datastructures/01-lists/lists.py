@@ -32,3 +32,11 @@ fruits.insert(1, "grape")
 print(fruits)
 fruits.extend(["orange", "kiwi"])
 print(fruits)
+
+# Remove
+fruits.remove("banana")
+print(fruits)
+print(fruits.pop())
+print(fruits)
+del fruits[0]
+print(fruits)
