@@ -54,3 +54,11 @@ for fruit in fruits:
 # List Comprehension
 squares = [x * x for x in range(5)]
 print(squares)
+
+# Useful Methods
+numbers = [5, 3, 9, 1]
+numbers.sort()
+numbers.reverse()
+print(numbers.count(3))
+nums = numbers.copy()
+print(nums)
