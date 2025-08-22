@@ -71,5 +71,5 @@ b = a.copy()  # Shallow copy
 c = copy.deepcopy(a)
 
 a[0][0] = 99
-print(b)
-print(c)
+print(b)  # affected
+print(c)  # not affected
