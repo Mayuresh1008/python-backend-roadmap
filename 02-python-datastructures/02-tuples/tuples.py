@@ -22,3 +22,9 @@ print(single)
 # empty tuple
 empty = ()
 print(empty)
+
+# Accessing & Slicing
+t = ("apple", "banana", "orange")
+print(t[0])
+print(t[1])
+print(t[-1])
