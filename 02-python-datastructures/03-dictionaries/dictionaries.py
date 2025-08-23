@@ -27,10 +27,27 @@ print(d4)
 
 ## Accessing & Updating
 d = {"name": "Mayuresh", "age": 22}
+print(d)
 print(d["name"])
 print(d.get("role"))
 
 d["role"] = "Dev"
 d["age"] = 23
 
+print(d)
+
+## Removing Elements
+d = {"a": 1, "b": 2, "c": 3}
+print(d)
+
+# d.pop("b")
+# print(d)
+
+d.popitem()
+# print(d)
+
+del d["a"]
+print(d)
+
+d.clear()
 print(d)
