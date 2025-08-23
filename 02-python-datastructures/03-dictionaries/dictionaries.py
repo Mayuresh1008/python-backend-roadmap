@@ -51,3 +51,15 @@ print(d)
 
 d.clear()
 print(d)
+
+## Iterating
+user = {"name": "Raj", "age": 22, "role": "Dev"}
+
+for key in user:
+    print(key, ":", user[key])
+
+for key, val in user.items():
+    print(key, "->", val)
+
+print(user.keys())
+print(user.values())
