@@ -98,3 +98,19 @@ print(rev)
 nums = [1, 2, 2, 3, 4, 4, 5]
 unique = list(set(nums))
 print(unique)
+
+# Find second largest
+nums = [10, 20, 4, 45, 90]
+nums.sort()
+print(nums[-2])
+
+# Merge two lists and remove common elements
+a = [1, 2, 3, 4]
+b = [3, 4, 5, 6]
+merged = list(set(a) ^ set(b))
+print(merged)
+
+# Return only even numbers
+nums = [1, 2, 3, 4, 5, 6]
+evens = [x for x in nums if x % 2 == 0]
+print(evens)
