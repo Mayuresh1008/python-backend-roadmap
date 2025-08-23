@@ -86,3 +86,10 @@ for num in numbers:
         frequency[num] = 1
 
 print(frequency)
+
+## Reverse a list without .reverse() or slicing
+nums = [1, 2, 3, 4, 5]
+rev = []
+for i in range(len(nums) - 1, -1, -1):
+    rev.append(nums[i])
+print(rev)
