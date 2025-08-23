@@ -24,3 +24,13 @@ d4 = {
 }
 
 print(d4)
+
+## Accessing & Updating
+d = {"name": "Mayuresh", "age": 22}
+print(d["name"])
+print(d.get("role"))
+
+d["role"] = "Dev"
+d["age"] = 23
+
+print(d)
