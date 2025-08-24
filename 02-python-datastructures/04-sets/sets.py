@@ -41,3 +41,9 @@ print(a | b)  # union
 print(a & b)  # intersection
 print(a - b)  # difference
 print(a ^ b)  # symmetric difference
+
+# Membership Testing
+# (Fast O(1))
+nums = {10, 20, 30}
+print(20 in nums)
+print(50 in nums)
