@@ -52,3 +52,11 @@ print(50 in nums)
 fs = frozenset([1, 2, 3])
 # fs.add(4) # not allowed it will generate an error
 # print(fs)
+
+## Mini Project (Sets)
+# Unique Email Collector
+emails = ["a@gmail.com", "b@gmail.com", "a@gmail.com", "c@gmail.com", "b@gmail.com"]
+
+unique_emails = set(emails)
+print("Unique Emails:", unique_emails)
+print("Count:", len(unique_emails))
