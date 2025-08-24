@@ -47,3 +47,8 @@ print(a ^ b)  # symmetric difference
 nums = {10, 20, 30}
 print(20 in nums)
 print(50 in nums)
+
+# FrozenSet (Immutable Set)
+fs = frozenset([1, 2, 3])
+# fs.add(4) # not allowed it will generate an error
+# print(fs)
