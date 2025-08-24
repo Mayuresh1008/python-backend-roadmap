@@ -67,3 +67,14 @@ print(user.values())
 ## Dictionary Comprehension
 sqaures = {x: x * x for x in range(5)}
 print(sqaures)
+
+## Mini Project (Dictionaries)
+# Word Frequency Counter
+text = "python is great and python is easy"
+words = text.split()
+
+freq = {}
+for word in words:
+    freq[word] = freq.get(word, 0) + 1
+
+print(freq)
