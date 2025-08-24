@@ -63,3 +63,7 @@ for key, val in user.items():
 
 print(user.keys())
 print(user.values())
+
+## Dictionary Comprehension
+sqaures = {x: x * x for x in range(5)}
+print(sqaures)
