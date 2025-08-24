@@ -12,3 +12,23 @@ print(s2)
 
 empty = set()
 print(empty)
+
+# Adding & Removing Elements
+s = {1, 2, 3, 5}
+print(s)
+
+s.add(4)
+print(s)
+
+s.remove(2)
+print(s)
+
+s.discard(5)
+s.discard(6)
+print(s)
+
+print(s.pop())
+print(s)
+
+s.clear()
+print(s)
