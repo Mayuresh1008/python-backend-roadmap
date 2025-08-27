@@ -10,7 +10,7 @@ Operations:
 4) isEmpty -> Check if stack is empty.
 """
 
-# Implementation Using Python List
+## Implementation Using Python List
 
 stack = []
 
@@ -29,3 +29,6 @@ print("Top element:", stack[-1])
 
 # Checking Empty
 print("Is Empty?", len(stack) == 0)
+
+
+## Implementation Using collection.deque
