@@ -32,3 +32,13 @@ print("Is Empty?", len(stack) == 0)
 
 
 ## Implementation Using collection.deque
+from collections import deque
+
+stack = deque()
+stack.append("A")
+stack.append("B")
+stack.append("C")
+print("Stack:", stack)
+
+print("Popped:", stack.pop())
+print("Stack after pop:", stack)
