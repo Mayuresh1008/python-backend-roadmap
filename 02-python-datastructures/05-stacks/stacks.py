@@ -19,3 +19,7 @@ stack.append(1)
 stack.append(2)
 stack.append(3)
 print("Stack:", stack)
+
+# Pop
+print("Popped:", stack.pop())
+print("Stack after pop:", stack)
