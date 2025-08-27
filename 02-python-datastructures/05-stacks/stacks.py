@@ -9,3 +9,7 @@ Operations:
 3) Peek/Top -> See the top element without removing.
 4) isEmpty -> Check if stack is empty.
 """
+
+# Implementation Using Python List
+
+stack = []
