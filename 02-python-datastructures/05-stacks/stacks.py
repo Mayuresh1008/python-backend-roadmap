@@ -26,3 +26,6 @@ print("Stack after pop:", stack)
 
 # Peek/Top
 print("Top element:", stack[-1])
+
+# Checking Empty
+print("Is Empty?", len(stack) == 0)
