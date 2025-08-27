@@ -23,3 +23,6 @@ print("Stack:", stack)
 # Pop
 print("Popped:", stack.pop())
 print("Stack after pop:", stack)
+
+# Peek/Top
+print("Top element:", stack[-1])
