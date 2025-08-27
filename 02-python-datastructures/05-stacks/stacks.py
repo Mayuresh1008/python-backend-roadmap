@@ -13,3 +13,9 @@ Operations:
 # Implementation Using Python List
 
 stack = []
+
+# Push
+stack.append(1)
+stack.append(2)
+stack.append(3)
+print("Stack:", stack)
