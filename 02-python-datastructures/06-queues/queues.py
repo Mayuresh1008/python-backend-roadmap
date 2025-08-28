@@ -52,3 +52,16 @@ q.put(30)
 # Dequeue
 print("Dequeued:", q.get())
 print("Dequeued:", q.get())
+
+## Priority Queue
+
+import heapq
+
+pq = []
+
+heapq.heappush(pq, (2, "Write Code"))
+heapq.heappush(pq, (1, "Fix Bugs"))
+heapq.heappush(pq, (3, "Push to Github"))
+
+while pq:
+    print(heapq.heappop(pq))
