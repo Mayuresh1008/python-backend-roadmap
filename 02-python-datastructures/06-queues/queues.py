@@ -38,3 +38,17 @@ print("Queue:", queue)
 # Dequeue
 print("Dequeue:", queue.popleft())
 print("Queue after dequeue:", queue)
+
+## Implementation Using queue.Queue
+from queue import Queue
+
+q = Queue()
+
+# Enqueue
+q.put(10)
+q.put(20)
+q.put(30)
+
+# Dequeue
+print("Dequeued:", q.get())
+print("Dequeued:", q.get())
