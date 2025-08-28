@@ -23,3 +23,18 @@ print("Queue:", queue)
 # Dequeue
 print("Dequeued:", queue.pop(0))
 print("Queue after dequeue:", queue)
+
+## Implementation using collection.deque
+from collections import deque
+
+queue = deque()
+
+# Enqueue
+queue.append("A")
+queue.append("B")
+queue.append("C")
+print("Queue:", queue)
+
+# Dequeue
+print("Dequeue:", queue.popleft())
+print("Queue after dequeue:", queue)
