@@ -10,3 +10,16 @@ Operations:
 3) Peek/Front -> See the first element without removing.
 4) IsEmpty -> Check if queue is empty.
 """
+
+## Implementation Using python list
+queue = []
+
+# Enqueue
+queue.append(1)
+queue.append(2)
+queue.append(3)
+print("Queue:", queue)
+
+# Dequeue
+print("Dequeued:", queue.pop(0))
+print("Queue after dequeue:", queue)
